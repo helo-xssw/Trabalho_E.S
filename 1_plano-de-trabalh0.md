@@ -143,9 +143,9 @@ Esta seção descreve como o projeto será conduzido, desde a concepção até a
 O desenvolvimento do projeto será dividido em cinco fases principais, seguindo a
 abordagem ágil com Scrum, utilizando sprints curtas para entregas iterativas.
 
-###Fases do Projeto
+### Fases do Projeto
 
-**1. Conecito/Ideia**
+**1. Conceito/Ideia**
 - Definição do problema e do público-alvo.
   
 - Análise de concorrentes e soluções existentes.
