@@ -124,7 +124,7 @@ Aqui são descritas as tecnologias e ferramentas que serão utilizadas no desenv
 |**Gerenciamento de Backlog**|GitHub|
 |**Repositório**|GitHub|
 |**Modelagem de Software**|Draw.io|
-|**Desenvolvimento do MVP| xxxxx |
+|**Desenvolvimento do MVP**| xxxxx |
 
 ## Características Inovadoras do Projeto
 
