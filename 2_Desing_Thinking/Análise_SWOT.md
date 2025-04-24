@@ -17,7 +17,7 @@
 - Crescimento do uso de apps de saúde e autocuidado que já são tendência.
 - Possibilidade de gamificação ou recompensas sociais (como selos de doador frequente) para engajar mais usuários.
 
-### AmeaçaS
+### Ameaças
 - Concorrência com outras soluções já existentes ex: apps de hemocentros locais ou nacionais.
 - Desconfiança do usuário quanto ao uso de dados pessoais e sensíveis, como tipagem sanguínea.
 - Barreiras legais e burocráticas na área da saúde que podem dificultar integrações ou notificações.
