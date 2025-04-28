@@ -2,5 +2,15 @@
 
 ### Profissional de saúde 
 <br>
-<p align="center"> <img src="https://postimg.cc/dDn5LS3M][img]https://i.postimg.cc/dDn5LS3M/PERSONA-1.png" alt="" width="500" /></p>
+<p align="center"> <img src="https://i.postimg.cc/kXPzY0d5/PERSONA-1.png" alt="" width="650" /></p>
+<br>
+
+### Doador experiente   
+<br>
+<p align="center"> <img src="https://i.postimg.cc/ryr7J83b/PERSONA-2.png" alt="" width="650" /></p>
+<br>
+
+### Nunca doou sangue antes
+<br>
+<p align="center"> <img src="https://i.postimg.cc/tJWfC5Fy/PERSONA-3.png" alt="" width="650" /></p>
 <br>
