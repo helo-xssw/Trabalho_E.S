@@ -1,17 +1,39 @@
 # Soluções existentes 
-[Quadro comparativo das soluções existentes](Soluções-existentes.pdf-2.pdf)
 
-## Hemovida
+Pequena Intrdodução sobre as soluções de doação de sangue --- 
+
+##  1. Hemovida
+|**Descrição**| **Público-alvo**|
+|-------------|-----------------|
+| Aplicativo oficial desenvolvido pelo ministério de saúde para cadastro e acompanhamento de doadores de sangue.| População em geral.|
+
+
 <br>
 <p align="center"> <img src="https://hemovida.com.br/assets/images/logo.jpg" alt="" width="400" /></p>
 <br>
 
-## Colsan
+## 2. Colsan
+|**Descrição**| **Público-alvo**|
+|-------------|-----------------|
+| Aplicativo para agendar doação, processamento e distribuição de sangue para hospitais públicos e privados.| População em geral, com foco na região de São Paulo.|
 <br>
-<p align="center"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPIG9_4ZtQFwNhTs-ZXQl8mFmpiYUCUc0MVuBqb5DmmKtJYVZqLnnsfK8VIM_VJPJCOzk&usqp=CAU" alt="" width="400" /></p>
+<p align="center"> <img src="https://play-lh.googleusercontent.com/l9_gYToVoTOqiVf6mVt8igktu_K9TxhhgUc-iYRY5J95Tr2RFTkoK__GyO24PSajKg" alt="" width="250" /></p>
 <br>
 
-## Gota da vida
+## 3. Gota de vida
+|**Descrição**| **Público-alvo**|
+|-------------|-----------------|
+| Gota de Vida	aplicativo que incentiva a doação de sangue no Espírito Santo, chamado "Gota de Vida", e a doença gota, um tipo de artrite causada por altos níveis de ácido úrico.| População de jovens e adultos entre ( 16-69 anos).|
 <br>
-<p align="center"> <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/40/4c/b7404cfe-9079-ae11-c183-f3ad9fd1b2f2/AppIcon-0-0-1x_U007ephone-0-85-220.png/1200x600wa.png" alt="" width="400" /></p>
+<p align="center"> <img src="https://images.sftcdn.net/images/t_app-icon-m/p/a19dc45f-936f-4dd1-9a73-c1fe1eb692df/4054609115/gota-de-vida-logo" alt="" width="200" /></p>
 <br>
+
+# Quadro comparativo das Soluções Existentes
+
+|**Critérios/Soluções**| Hemovida|Colsan|Gota de Vida| Nossa Solução|
+|----------------------|---------|------|------------|--------------|
+|**Modelo de negócio**|Público/governamental|Filantrópico/parceria com SUS|Público(ligado ao governo do Espirito santo)|Gratuito com foco social|
+|**Tecnologia utilizada**|Aplicativo móvel(Android/ios)|Site institucional/sistema interno|Aplicativo(Android/IOS)|Aplicativo móvel com informações sobre doação de sangue|
+|**Pontos fortes**|Integração com os hemocentros|Base de dados Nacional|Conscientiza e incentiva a doação de sangue a com notificações e campanhas|Facilidade, motivação, centralização|
+|**Pontos fracos**|Falta de incentivo direto|Processos burocráticos|Pode enfrentar resistência de novos usuários|Precisa de base ativa de usuários|
+|**Público-alvo**|População em greal|Doadores de São Paulo|Comunidade local|Jovens e adultos engajados com causas sociais|
