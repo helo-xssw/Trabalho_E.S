@@ -26,5 +26,9 @@ Para compreender melhor o posicionamento estratégico do aplicativo desenvolvido
 - Barreiras legais e burocráticas na área da saúde que podem dificultar integrações ou notificações.
 - Falta de incentivo público e privado, dificultando o crescimento e manutenção da plataforma.
 
+  <br>
+<p align="center"> <img src="https://i.postimg.cc/XNt5gHFy/Gr-fico-de-Persona-Terapeuta-Divertido-Rosa-4.png" alt="" width="650" /></p>
+<br>
+
 
 
