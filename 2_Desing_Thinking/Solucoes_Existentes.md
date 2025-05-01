@@ -30,6 +30,9 @@ Para embasar o desenvolvimento do aplicativo proposto, foi realizada uma pesquis
 
 # Quadro comparativo das Soluções Existentes
 
+A seguir, apresenta-se um quadro comparativo entre os aplicativos Hemovida, Colsan e Gota de Vida, tendo como base critérios fundamentais para a análise de sistemas similares ao proposto neste projeto. Os critérios considerados foram: modelo de negócio, tecnologia utilizada, público-alvo, pontos fortes e pontos fracos/limitações.
+
+
 |**Critérios/Soluções**| Hemovida|Colsan|Gota de Vida| Nossa Solução|
 |----------------------|---------|------|------------|--------------|
 |**Modelo de negócio**|Público/governamental|Filantrópico/parceria com SUS|Público(ligado ao governo do Espirito santo)|Gratuito com foco social|
