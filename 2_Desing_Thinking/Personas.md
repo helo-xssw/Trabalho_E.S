@@ -7,7 +7,7 @@
 
 ## Doador experiente   
 <br>
-<p align="center"> <img src="https://i.postimg.cc/ryr7J83b/PERSONA-2.png" alt="" width="650" /></p>
+<p align="center"> <img src="https://i.postimg.cc/8zFnNjp9/Gr-fico-de-Persona-Terapeuta-Divertido-Rosa-2.png" alt="" width="650" /></p>
 <br>
 
 ## Doador em Potencial
