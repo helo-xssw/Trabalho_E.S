@@ -1,6 +1,6 @@
 # Soluções existentes 
 
-Pequena Intrdodução sobre as soluções de doação de sangue --- 
+Para embasar o desenvolvimento do aplicativo proposto, foi realizada uma pesquisa exploratória de aplicativos com propostas semelhantes, com o objetivo de identificar funcionalidades já existentes, compreender boas práticas e levantar possíveis diferenciais. Entre os aplicativos analisados, destacam-se o Hemovida (Ministério da Saúde), Colsan (Associação Beneficente de Coleta de Sangue) e Gota de Vida. A análise comparativa desses sistemas serviu como referência para definir as funcionalidades mais relevantes, avaliar lacunas e direcionar as decisões de projeto com foco nas necessidades específicas de um hospital municipal.
 
 ##  1. Hemovida
 |**Descrição**| **Público-alvo**|
