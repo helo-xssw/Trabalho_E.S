@@ -12,5 +12,5 @@
 
 ## Doador em Potencial
 <br>
-<p align="center"> <img src="https://i.postimg.cc/tJWfC5Fy/PERSONA-3.png" alt="" width="650" /></p>
+<p align="center"> <img src="https://i.postimg.cc/pLPhN1D6/Gr-fico-de-Persona-Terapeuta-Divertido-Rosa-3.png" alt="" width="650" /></p>
 <br>
