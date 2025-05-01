@@ -2,7 +2,7 @@
 
 ## Profissional da Área da Saúde 
 <br>
-<p align="center"> <img src="https://i.postimg.cc/kXPzY0d5/PERSONA-1.png" alt="" width="650" /></p>
+<p align="center"> <img src="https://i.postimg.cc/C5mPc0cG/Gr-fico-de-Persona-Terapeuta-Divertido-Rosa-1.png" alt="" width="650" /></p>
 <br>
 
 ## Doador experiente   
