@@ -2,11 +2,14 @@
 
 Para alinhar o propósito e a proposta de valor do aplicativo, utilizamos o modelo do Golden Circle, uma metodologia desenvolvida por Simon Sinek que propõe a reflexão a partir de três perguntas centrais: Por quê?, Como? e O quê?. Essa abordagem ajuda a clarear não apenas o que está sendo desenvolvido, mas principalmente por qual razão a solução existe e como ela se diferencia das demais. A seguir, apresentamos as respostas a essas três questões fundamentais com base na proposta do aplicativo:
 
+
 - **Por quê?** – Qual problema ou dor social buscamos resolver?
 
 - **Como?** – De que forma nossa solução será diferente ou inovadora?
 
 - **O quê?** – Qual será a solução final entregue à comunidade?
+
+
 
 Essa análise reforça o foco do projeto no impacto social, na inovação prática e na entrega de valor direto para os usuários do sistema — tanto a equipe do hospital quanto os doadores da comunidade.
 
