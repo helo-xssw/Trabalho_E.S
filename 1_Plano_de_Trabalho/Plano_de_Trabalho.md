@@ -26,29 +26,29 @@
 
 -[1. INTRODUÇÃO](#introdução)
        
-        A doação de sangue é um ato essencial para salvar vidas em situações emergenciais, cirurgias e tratamentos de doenças crônicas. No entanto, muitos bancos de sangue enfrentam dificuldades para manter seus estoques em níveis adequados, especialmente em períodos críticos. A falta de informação, a dificuldade de acesso e a ausência de uma cultura regular de doação estão entre os principais fatores que contribuem para esse cenário.
-        Diante desse contexto, este projeto propõe o desenvolvimento de um aplicativo móvel que tem como objetivo facilitar e incentivar a doação de sangue. A plataforma permitirá que os usuários agendem doações de forma prática, acompanhem campanhas ativas em sua região, e tenham acesso a conteúdos educativos sobre o processo de doação. Além disso, o app fornecerá informações personalizadas, como compatibilidade sanguínea e os exames realizados antes da doação, aumentando a segurança e a confiança no processo.
-        Com isso, espera-se promover uma rede de solidariedade mais ativa, ampliar o número de doadores e contribuir de forma significativa para o fortalecimento da saúde pública por meio da tecnologia.
+A doação de sangue é um ato essencial para salvar vidas em situações emergenciais, cirurgias e tratamentos de doenças crônicas. No entanto, muitos bancos de sangue enfrentam dificuldades para manter seus estoques em níveis adequados, especialmente em períodos críticos. A falta de informação, a dificuldade de acesso e a ausência de uma cultura regular de doação estão entre os principais fatores que contribuem para esse cenário.
+Diante desse contexto, este projeto propõe o desenvolvimento de um aplicativo móvel que tem como objetivo facilitar e incentivar a doação de sangue. A plataforma permitirá que os usuários agendem doações de forma prática, acompanhem campanhas ativas em sua região, e tenham acesso a conteúdos educativos sobre o processo de doação. Além disso, o app fornecerá informações personalizadas, como compatibilidade sanguínea e os exames realizados antes da doação, aumentando a segurança e a confiança no processo.
+Com isso, espera-se promover uma rede de solidariedade mais ativa, ampliar o número de doadores e contribuir de forma significativa para o fortalecimento da saúde pública por meio da tecnologia.
 
 -[1.1 Objeto](#objeto)
 
-        O projeto consiste no desenvolvimento de um aplicativo móvel para gestão e incentivo à doação de sangue. A plataforma permitirá agendamento inteligente de doações, envio de notificações de emergência, acesso a ficha médica e histórico de doações, além de conteúdos educativos como vídeos e curiosidades sobre os tipos sanguíneos. Também incluirá o monitoramento dos estoques por região
+O projeto consiste no desenvolvimento de um aplicativo móvel para gestão e incentivo à doação de sangue. A plataforma permitirá agendamento inteligente de doações, envio de notificações de emergência, acesso a ficha médica e histórico de doações, além de conteúdos educativos como vídeos e curiosidades sobre os tipos sanguíneos. Também incluirá o monitoramento dos estoques por região
 
 
 -[1.2 Motivação Justificativa e Oportunidade](#motivação-justificativa-e-oportunidade)
 
-        A doação de sangue é fundamental para salvar vidas, mas em Itacoatiara/AM, o Hemonúcleo local enfrenta desafios relacionados à escassez de doadores. Fatores como falta de informação, medo e dificuldades de acesso dificultam a criação de uma cultura de doação contínua. Desenvolver um aplicativo móvel dedicado à doação de sangue pode conectar doadores e o Hemonúcleo, oferecendo recursos como agendamento, campanhas regionais, notificações de emergência e histórico de doações. Com a crescente utilização de smartphones e internet, essa solução tem potencial para aumentar a rede de doadores e manter os estoques adequados em Itacoatiara. O uso da tecnologia surge como uma aliada estratégica para superar essas barreiras, ao proporcionar informação acessível, lembretes personalizados e integração com campanhas locais.
+A doação de sangue é fundamental para salvar vidas, mas em Itacoatiara/AM, o Hemonúcleo local enfrenta desafios relacionados à escassez de doadores. Fatores como falta de informação, medo e dificuldades de acesso dificultam a criação de uma cultura de doação contínua. Desenvolver um aplicativo móvel dedicado à doação de sangue pode conectar doadores e o Hemonúcleo, oferecendo recursos como agendamento, campanhas regionais, notificações de emergência e histórico de doações. Com a crescente utilização de smartphones e internet, essa solução tem potencial para aumentar a rede de doadores e manter os estoques adequados em Itacoatiara. O uso da tecnologia surge como uma aliada estratégica para superar essas barreiras, ao proporcionar informação acessível, lembretes personalizados e integração com campanhas locais.
 
 
 -[1.3 Caracterização do Projeto](#caracterização-do-projeto)
 
-        Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação de sangue, com foco na cidade de Itacoatiara/AM, onde há um Hemonúcleo ativo. A seguir, estão os principais atributos que caracterizam o projeto:
-        .Objetivo: Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável
-        Público-Alvo: Moradores de Itacoatiara/AM, especialmente aqueles dispostos a doar sangue, incluindo a população jovem e adulta, e aqueles em situações de emergência médica.
-        Tecnologia Utilizada: O aplicativo será desenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
-        Funcionalidades Principais: Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
-        Impacto Esperado: Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
-        Sustentabilidade: A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
+Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação de sangue, com foco na cidade de Itacoatiara/AM, onde há um Hemonúcleo ativo. A seguir, estão os principais atributos que caracterizam o projeto:
+- Objetivo: Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável
+- Público-Alvo: Moradores de Itacoatiara/AM, especialmente aqueles dispostos a doar sangue, incluindo a população jovem e adulta, e aqueles em situações de emergência médica.
+- Tecnologia Utilizada: O aplicativo será desenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
+- Funcionalidades Principais: Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
+- Impacto Esperado: Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
+- Sustentabilidade: A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
 
 
 -[1.3.1 Classe](#classe)
