@@ -24,7 +24,7 @@
 
 # Índice 
 
-- [1. INTRODUÇÃO](#introdução)
+[1. INTRODUÇÃO](#introdução).
 
 - [1.1 Objeto](#objeto)
 
@@ -32,37 +32,37 @@
 
 - [1.3 Caracterização do Projeto](#caracterização-do-projeto)
 
-- [1.3.1 Classe](#classe)
+	- [1.3.1 Classe](#classe)
 
-- [1.3.2 Enquadrabilidade](#enquadrabilidade)
+	- [1.3.2 Enquadrabilidade](#enquadrabilidade)
 
-- [1.3.3 Tipo](#tipo)
+	- [1.3.3 Tipo](#tipo)
 
-- [3. INFORMAÇÕES GERAIS](#informações-gerais)
+- [2. INFORMAÇÕES GERAIS](#informações-gerais)
 
-- [2.1 Escopo Geral](#escopo-geral)
+	- [2.1 Escopo Geral](#escopo-geral)
 
-- [2.1.1 Escopo Específico](#escopo-específico)
+		- [2.1.1 Escopo Específico](#escopo-específico)
 
-- [2.1.2 Escopo Negativo](#escopo-negativo)
+		- [2.1.2 Escopo Negativo](#escopo-negativo)
 
-- [2.2 Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
+	- [2.2 Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
 
-- [2.3 Características Inovadoras do Projeto](#características-inovadoras-do-projeto)
+	- [2.3 Características Inovadoras do Projeto](#características-inovadoras-do-projeto)
 
-- [2.4 Resultados Esperados](#resultados-esperados)
+	- [2.4 Resultados Esperados](#resultados-esperados)
 
-- [4. METODOLOGIA DE PROJETO](#metodologia-de-projeto)
+- [3. METODOLOGIA DE PROJETO](#metodologia-de-projeto)
 
-- [3.1 Estrutura do Projeto](#estrutura-do-projeto)
+	- [3.1 Estrutura do Projeto](#estrutura-do-projeto)
 
-- [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#equipe-de-projeto-papéis-e-responsabilidades-dos-integrantes)
+	- [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#equipe-de-projeto-papéis-e-responsabilidades-dos-integrantes)
 
-- [3.3 Backlog do Sprint](#backlog-do-sprint)
+	- [3.3 Backlog do Sprint](#backlog-do-sprint)
 
-- [3.4 Controle de Mudanças](#controle-de-mudanças)
+	- [3.4 Controle de Mudanças](#controle-de-mudanças)
 
-- [3.5 Gerenciamento de Comunicação](#gerenciamento-de-comunicação)
+	- [3.5 Gerenciamento de Comunicação](#gerenciamento-de-comunicação)
 
 # Introdução
 
@@ -132,7 +132,7 @@ O escopo específico detalha as funcionalidades e requisitos que serão implemen
 O escopo negativo define o que não será desenvolvido, evitando expectativas erradas sobre funcionalidades que não fazem parte do projeto.
 
 ## Ambiente de Desenvolvimento
-
+-
 Aqui são descritas as tecnologias e ferramentas que serão utilizadas no desenvolvimento do projeto. Pode ser representado em uma tabela.
 
 |**Componente**|**Tecnologia/Ferramenta**|
