@@ -4,7 +4,7 @@
 |-------------------|-----------------------------------------------------------------------------------|
 |**Versão**| 1.0|
 |**Status**|Aguardando aprovação|
-|**Número de Controle SRBR-M**| Código de rastreamento interno para identificação do projeto. Pode ser um número fictício para controle acadêmico|
+|**Número de Controle SRBR-M**|11111101001 |
 |**Executor Principal**| Daily Blood(Ennoile, Rhanna, Emily e Andreza)|
 |**Coordenador do Projeto**| Heloise|
 
@@ -12,7 +12,7 @@
 
 |**Versão**|**Descrição**|**Autor**|**Data**|
 |----------|-------------|---------|--------|
-| 1.0| Elaboração do Plano de Trabalho | | |
+| 1.0| Elaboração do Plano de Trabalho |Ennoile |  24/04/2025|
 | 1.1| XXXXXXXX | | |
 | 1.2| XXXXXXXX | | |
 | 1.3| XXXXXXXX | | |
