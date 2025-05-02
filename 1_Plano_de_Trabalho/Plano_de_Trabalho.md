@@ -52,6 +52,7 @@ Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação
 
 
 -[1.3.1 Classe](#classe)
+
 O projeto se enquadra na classe de Aplicativo Móvel, pois será desenvolvido especificamente para dispositivos móveis (Android e iOS), visando facilitar o acesso dos usuários às funcionalidades do sistema, como agendamento de doações, recebimento de notificações e acompanhamento de campanhas. A escolha por essa classe considera a ampla utilização de smartphones pela população e a necessidade de oferecer uma solução prática, acessível e sempre disponível, especialmente em contextos de urgência e mobilidade.
 | **Classe**         | **Detalhamento**                                                                                      |
 |--------------------|--------------------------------------------------------------------------------------------------------|
@@ -59,6 +60,11 @@ O projeto se enquadra na classe de Aplicativo Móvel, pois será desenvolvido es
 
 
 -[1.3.2 Enquadrabilidade](#enquadrabilidade)
+
+
+
+
+
 O sistema proposto se enquadra como Software de Interesse Público e potencialmente Software de Pesquisa, com ênfase em saúde e tecnologia social. Seu principal objetivo é promover e facilitar a doação de sangue por meio da tecnologia, contribuindo diretamente para a saúde pública da cidade de Itacoatiara/AM e potencialmente de outras regiões. O projeto pode ser desenvolvido sob uma licença Open Source, como a MIT ou GPL, para estimular a colaboração da comunidade acadêmica, profissionais de tecnologia e órgãos públicos. Além disso, sua utilização pode ser estendida a fins educacionais, ao servir como objeto de estudo em cursos de Engenharia de Software, Saúde Pública ou Tecnologias Sociais. O sistema seguirá diretrizes de acessibilidade, usabilidade e proteção de dados, estando em conformidade com a Lei Geral de Proteção de Dados (LGPD), visto que envolverá o manuseio de informações sensíveis dos usuários, como dados médicos e histórico de doações.
 | **Enquadrabilidade**          | **Detalhamento**                                                                                                                                     |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
