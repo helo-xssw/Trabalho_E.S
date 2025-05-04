@@ -240,9 +240,14 @@ abordagem ágil com Scrum, utilizando sprints curtas para entregas iterativas.
 
 ## Equipe de Projeto: Papéis e Responsabilidades dos integrantes
 
-|**Papel**|**Responsabilidade**|
-|---------|--------------------|
-|xxxxxxxxx|xxxxxxxxxxxxxxxxxxxx|
+|**Integrante**|**Papéis Pricipais**|**Responsabilidade**|
+|---------|--------------------|-------------------------|
+|Rhanna Ribeiro| Facilitador de Produto + Auxiliar de Documentação | Levanta os requisitos, define funcionalidades prioritárias, apoia a redação de relatórios.|
+|Heloíse Brito| Scrum Master Acadêmico + Organização de Reuniões| Organiza sprints, conduz reuniões, mantém o grupo no cronograma e resolve entraves.|
+|Ennoile Ferreira| Desenvolvedor(a) Full Stack| Programa o back-end e o front-end do app, garante a integração e funcionamento do sistema.|
+|Emelly Oliveira| Designer UX/UI + Desenvolvedor Front-end| Cria telas, wireframes, protótipos e ajuda a implementar o visual do app.|
+|Andreza Oliveira| Documentador(a) + Apresentador(a) + Testes| Cuida da documentação final, prepara apresentações e realiza testes de usabilidade.|
+
 
 ## Backlog do Sprint
 
