@@ -81,9 +81,7 @@ A doação de sangue é fundamental para salvar vidas, mas em Itacoatiara/AM, o 
 ## Caracterização do Projeto
 
 Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação de sangue, com foco na cidade de Itacoatiara/AM, onde há um Hemonúcleo ativo. A seguir, estão os principais atributos que caracterizam o projeto:
-- Objetivo: Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável
-- Público-Alvo: Moradores de Itacoatiara/AM, especialmente aqueles dispostos a doar sangue, incluindo a população jovem e adulta, e aqueles em situações de emergência médica.
-- Tecnologia Utilizada: O aplicativo será desenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
+- Objetivo: Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável000000esenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
 - Funcionalidades Principais: Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
 - Impacto Esperado: Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
 - Sustentabilidade: A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
@@ -117,23 +115,46 @@ Este projeto é classificado como Desenvolvimento de Software e Trabalho Acadêm
 
 # Informações Gerais
 
-Esta seção define o que o projeto pretende desenvolver, suas limitações, tecnologias utilizadas e a inovação que ele traz.
+O presente projeto tem como finalidade o desenvolvimento de um aplicativo móvel voltado ao incentivo e organização da doação de sangue no município de Itacoatiara/AM, atendendo às necessidades do hemonúcleo local e da população. O sistema será direcionado tanto para doadores, quanto para profissionais de saúde, promovendo uma gestão mais eficiente do processo de triagem, agendamento, coleta e acompanhamento de resultados.
+A proposta busca solucionar dificuldades recorrentes, como a falta de comunicação entre hemonúcleo e doadores, ausência de controle sobre agendamentos, e a necessidade de campanhas mais direcionadas para suprir os estoques de sangue de forma eficaz.
+O projeto terá como limitações o atendimento exclusivo a usuários com CEP pertencente ao município de Itacoatiara, restringindo o uso das funcionalidades principais apenas a essa área de cobertura. Além disso, todas as funcionalidades serão desenvolvidas conforme os critérios estabelecidos por órgãos reguladores como o Ministério da Saúde e a ANVISA, e de acordo com a Lei Geral de Proteção de Dados (LGPD).
+
 
 ## Escopo Geral
 
-O escopo geral descreve, de forma ampla, as funcionalidades e objetivos principais do sistema, delimitando o que será entregue no projeto.
+O projeto tem como objetivo desenvolver um aplicativo móvel para apoio à doação de sangue no município de Itacoatiara/AM, facilitando o processo de cadastro de doadores, triagem, agendamento, monitoramento de estoque, divulgação de campanhas e acompanhamento de exames, além de oferecer orientações pós-doação. A solução busca otimizar a atuação do hemonúcleo local e melhorar a comunicação entre os doadores e os profissionais de saúde, respeitando as diretrizes legais e sanitárias vigentes.
 
 ### Escopo Específico
 
-O escopo específico detalha as funcionalidades e requisitos que serão implementados. Aqui, é importante listar as principais entregas do sistema.
+O sistema contemplará as seguintes funcionalidades:
+Cadastro de usuários com validação de endereço por CEP e autenticação segura (CPF/e-mail + senha);
+- Controle de acesso: funcionalidades liberadas apenas para usuários com triagem e exames aprovados;
+- Agendamento de doações, com visualização de horários disponíveis e limite de vagas por turno;
+- Reagendamento e cancelamento com regras específicas de prazo e disponibilidade;
+- Notificações automáticas sobre agendamentos, resultados, campanhas e orientações;
+- Consulta e histórico de resultados de exames, com explicações acessíveis e proteção de dados sensíveis;
+- Gestão de estoque de bolsas de sangue por tipo sanguíneo, acessível para profissionais do hemonúcleo;
+- Painel para enfermeiros da UBS, com acesso à lista de agendamentos e dados de triagem;
+- Orientações pós-doação, adaptadas ao tipo de doação realizada e acessíveis a qualquer momento;
+- Módulo informativo com conteúdos sobre doação de sangue, disponível para todos os usuários;
+- Seção de campanhas com detalhes da campanha vigente, histórico de campanhas e metas definidas pelo hemonúcleo;
+- Configuração de preferências de notificação, respeitando a privacidade e o interesse do usuário.
 
 ### Escopo Negativo
 
-O escopo negativo define o que não será desenvolvido, evitando expectativas erradas sobre funcionalidades que não fazem parte do projeto.
+- Não haverá integração com redes sociais para autenticação (login via Facebook, Google, etc.);
+- O sistema não permitirá cadastro de usuários fora do município de Itacoatiara/AM;
+- Não será implementada uma versão web do sistema nesta etapa, apenas o aplicativo móvel;
+- O sistema não terá funcionalidades de geolocalização em tempo real;
+- Não será possível consultar o estoque de sangue publicamente — essa funcionalidade será restrita aos profissionais do hemonúcleo;
+ Não serão integradas funcionalidades avançadas de inteligência artificial ou machine learning nesta fase do projeto;
+- O sistema não realizará agendamento automático com base em disponibilidade futura — o reagendamento será manual, com sugestões simples;
+- O sistema não permitirá a doação por meio de campanhas externas ou eventos de coleta móvel (somente no hospital municipal vinculado);
+- O aplicativo não incluirá funcionalidades financeiras ou de recompensa por doação (como pontos, rankings ou premiações).
 
 ## Ambiente de Desenvolvimento
--
-Aqui são descritas as tecnologias e ferramentas que serão utilizadas no desenvolvimento do projeto. Pode ser representado em uma tabela.
+
+Nesta seção, são apresentadas as tecnologias e ferramentas que serão empregadas no desenvolvimento do projeto. As informações estão organizadas em formato de tabela para melhor visualização e compreensão.
 
 |**Componente**|**Tecnologia/Ferramenta**|
 |--------------|-------------------------|
@@ -145,11 +166,22 @@ Aqui são descritas as tecnologias e ferramentas que serão utilizadas no desenv
 
 ## Características Inovadoras do Projeto
 
-Aqui são descritas as inovações do projeto, ou seja, o que o torna diferente de soluções já existentes.
-
+Este projeto se destaca por oferecer uma solução digital adaptada à realidade do município de Itacoatiara, promovendo a acessibilidade à doação de sangue e a automatização de processos como triagem, agendamento e comunicação com os doadores. Como diferencial, o sistema inclui o monitoramento do estoque de bolsas por tipo sanguíneo, permitindo uma gestão mais precisa e estratégica por parte do hemonúcleo local. Além disso, o aplicativo incentiva a educação em saúde por meio de conteúdos informativos e orientações personalizadas, em um ambiente seguro, intuitivo e acessível a toda a comunidade.
 ## Resultados Esperados
 
-Aqui são listados os principais resultados esperados após a conclusão do projeto.
+Com a conclusão deste projeto, espera-se obter benefícios significativos tanto para a gestão do hemonúcleo local quanto para os cidadãos do município de Itacoatiara. A implementação do aplicativo tem como objetivo otimizar os processos relacionados à doação de sangue, promover maior controle e organização por parte da equipe de saúde, além de proporcionar uma experiência mais prática, segura e informativa para os doadores.
+
+Entre os principais resultados esperados, destacam-se:
+
+- Um aplicativo funcional para gestão de doações de sangue no município de Itacoatiara/AM, com suporte a triagem, agendamento e acompanhamento de exames;
+- Melhoria na organização dos atendimentos por parte do hemonúcleo, com acesso à lista de agendamentos e monitoramento do estoque de sangue por tipo sanguíneo;
+- Redução de faltas e cancelamentos não informados, por meio de notificações automáticas e sistema de reagendamento;
+- Aumento do engajamento da população local em campanhas de doação, com informações acessíveis e orientações pós-doação diretamente no aplicativo;
+- Interface intuitiva e acessível, pensada para facilitar a navegação tanto de doadores quanto de profissionais da saúde;
+- Maior segurança e sigilo no tratamento de dados sensíveis, em conformidade com a Lei Geral de Proteção de Dados (LGPD);
+- Centralização e histórico dos resultados de exames, com acesso individualizado e orientações claras ao usuário.
+
+
 
 # Metodologia de Projeto 
 
