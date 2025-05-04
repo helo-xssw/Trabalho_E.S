@@ -5,7 +5,7 @@
 |**Versão**| 1.0|
 |**Status**|Aguardando aprovação|
 |**Número de Controle SRBR-M**|11111101001 |
-|**Executor Principal**| Daily Blood(Ennoile, Rhanna, Emily e Andreza)|
+|**Executor Principal**| Daily Blood(Andreza, Ennoile, Emelly, Heloíse e Rhanna)|
 |**Coordenador do Projeto**| Prof. Andrey Rodrigues|
 
 # Histórico de Versões 
@@ -72,7 +72,7 @@ Com isso, espera-se promover uma rede de solidariedade mais ativa, ampliar o nú
 
 ## Objeto
 
-O projeto consiste no desenvolvimento de um aplicativo móvel para gestão e incentivo à doação de sangue. A plataforma permitirá agendamento inteligente de doações, envio de notificações de emergência, acesso a ficha médica e histórico de doações, além de conteúdos educativos como vídeos e curiosidades sobre os tipos sanguíneos. Também incluirá o monitoramento dos estoques por região
+O projeto consiste no desenvolvimento de um aplicativo móvel para gestão e incentivo à doação de sangue. A plataforma permitirá agendamento inteligente de doações, envio de notificações de emergência, acesso a ficha médica e histórico de doações, além de conteúdos educativos como vídeos e curiosidades sobre os tipos sanguíneos. Também incluirá o monitoramento dos estoques por região.
 
 ## Motivação Justificativa e Oportunidade
 
@@ -81,10 +81,10 @@ A doação de sangue é fundamental para salvar vidas, mas em Itacoatiara/AM, o 
 ## Caracterização do Projeto
 
 Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação de sangue, com foco na cidade de Itacoatiara/AM, onde há um Hemonúcleo ativo. A seguir, estão os principais atributos que caracterizam o projeto:
-- Objetivo: Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável000000esenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
-- Funcionalidades Principais: Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
-- Impacto Esperado: Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
-- Sustentabilidade: A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
+- **Objetivo:** Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável desenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
+- **Funcionalidades Principais:** Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
+- **Impacto Esperado:** Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
+- **Sustentabilidade:** A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
 
 
 ### Classe
@@ -127,7 +127,8 @@ O projeto tem como objetivo desenvolver um aplicativo móvel para apoio à doaç
 ### Escopo Específico
 
 O sistema contemplará as seguintes funcionalidades:
-Cadastro de usuários com validação de endereço por CEP e autenticação segura (CPF/e-mail + senha);
+
+- Cadastro de usuários com validação de endereço por CEP e autenticação segura (CPF/e-mail + senha);
 - Controle de acesso: funcionalidades liberadas apenas para usuários com triagem e exames aprovados;
 - Agendamento de doações, com visualização de horários disponíveis e limite de vagas por turno;
 - Reagendamento e cancelamento com regras específicas de prazo e disponibilidade;
