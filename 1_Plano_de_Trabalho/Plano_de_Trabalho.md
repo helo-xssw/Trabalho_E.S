@@ -6,7 +6,7 @@
 |**Status**|Aguardando aprovação|
 |**Número de Controle SRBR-M**|11111101001 |
 |**Executor Principal**| Daily Blood(Ennoile, Rhanna, Emily e Andreza)|
-|**Coordenador do Projeto**| Heloise|
+|**Coordenador do Projeto**| Prof. Andrey Rodrigues|
 
 # Histórico de Versões 
 
