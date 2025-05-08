@@ -19,7 +19,7 @@ Essa preparação inicial teve como objetivo garantir um direcionamento claro, o
 
 ## Tópicos do trabalho
 
-- [1 - Plano de Trabalho]()
-- [2 - Desing Thinking]()
-- [3 - Backlog do Produto]()
-- [5 - Backlog do Sprint]()
+- [1 - Plano de Trabalho](https://github.com/helo-xssw/Trabalho_E.S/blob/main/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
+- [2 - Desing Thinking](https://github.com/helo-xssw/Trabalho_E.S/tree/main/2_Desing_Thinking)
+- [3 - Backlog do Produto](https://github.com/helo-xssw/Trabalho_E.S/blob/main/3_Backlog_do_Produto/Backlog_do_Produto.md)
+- [5 - Backlog do Sprint](https://github.com/helo-xssw/Trabalho_E.S/blob/main/4_Backlog_do_Sprint/Backlog_do_Sprint.md)
