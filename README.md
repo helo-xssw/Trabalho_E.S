@@ -16,3 +16,8 @@
 - Foram elaborados artefatos fundamentais para guiar o desenvolvimento, incluindo o Golden Circle, a Análise SWOT, a pesquisa de Soluções Existentes, a criação de Personas representando os usuários do sistema, além da estruturação do Backlog do Produto (com histórias de usuário, critérios de aceitação e regras de negócio), o Backlog das Sprints e o Plano de Trabalho.
 
 Essa preparação inicial teve como objetivo garantir um direcionamento claro, organizado e colaborativo para o projeto, criando uma base sólida para as próximas fases da engenharia de software.
+
+- [1 - Plano de Trabalho]()
+- [2 - Desing Thinking]()
+- [3 - Backlog do Produto]()
+- [5 - Backlog do Sprint]()
