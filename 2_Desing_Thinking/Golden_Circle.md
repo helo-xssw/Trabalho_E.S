@@ -1,6 +1,6 @@
 # **Golden Circle**
 
-Para alinhar o propósito e a proposta de valor do aplicativo, utilizamos o modelo do Golden Circle, uma metodologia desenvolvida por Simon Sinek que propõe a reflexão a partir de três perguntas centrais: Por quê?, Como? e O quê?. Essa abordagem ajuda a clarear não apenas o que está sendo desenvolvido, mas principalmente por qual razão a solução existe e como ela se diferencia das demais. A seguir, apresentamos as respostas a essas três questões fundamentais com base na proposta do aplicativo:
+Para alinhar o propósito e a proposta de valor do aplicativo, utilizamos o modelo do Golden Circle, uma metodologia desenvolvida por Simon Sinek que propõe a reflexão a partir de três perguntas centrais: **Por quê?**, **Como?** e **O quê?**. Essa abordagem ajuda a clarear não apenas o que está sendo desenvolvido, mas principalmente por qual razão a solução existe e como ela se diferencia das demais. A seguir, apresentamos as respostas a essas três questões fundamentais com base na proposta do aplicativo:
 
 
 - **Por quê?** – Qual problema ou dor social buscamos resolver?
