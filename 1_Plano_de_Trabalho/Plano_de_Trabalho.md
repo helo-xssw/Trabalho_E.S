@@ -81,10 +81,13 @@ A doação de sangue é fundamental para salvar vidas, mas em Itacoatiara/AM, o 
 ## Caracterização do Projeto
 
 Este projeto visa o desenvolvimento de um aplicativo móvel dedicado à doação de sangue, com foco na cidade de Itacoatiara/AM, onde há um Hemonúcleo ativo. A seguir, estão os principais atributos que caracterizam o projeto:
-- **Objetivo:** Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável desenvolvido para dispositivos móveis, utilizando plataformas como Android e iOS, com foco na interface amigável, usabilidade e acessibilidade.
-- **Funcionalidades Principais:** Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.
-- **Impacto Esperado:** Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local.
-- **Sustentabilidade:** A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários.
+| Categoria             | Descrição                                                                                                                                          |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Objetivo**          | Facilitar a conexão entre doadores de sangue e o Hemonúcleo de Itacoatiara, promovendo uma cultura de doação contínua e sustentável. Desenvolvido para dispositivos móveis (Android e iOS), com foco em interface amigável, usabilidade e acessibilidade. |
+| **Funcionalidades Principais** | Agendamento de doações, notificações de emergências, campanhas educativas, histórico de doações e registro médico digital.                            |
+| **Impacto Esperado**  | Aumentar o número de doadores regulares, reduzir a escassez de sangue no Hemonúcleo de Itacoatiara e promover a conscientização sobre a importância da doação de sangue na comunidade local. |
+| **Sustentabilidade**  | A utilização de um aplicativo móvel permitirá a manutenção contínua do projeto, com atualizações e melhorias regulares para garantir que o sistema permaneça eficaz e acessível a todos os usuários. |
+
 
 
 ### Classe
