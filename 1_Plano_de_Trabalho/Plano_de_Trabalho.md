@@ -13,14 +13,7 @@
 |**Versão**|**Descrição**|**Autor**|**Data**|
 |----------|-------------|---------|--------|
 | 1.0| Elaboração do Plano de Trabalho |Ennoile |  24/04/2025|
-| 1.1| XXXXXXXX | | |
-| 1.2| XXXXXXXX | | |
-| 1.3| XXXXXXXX | | |
-| 1.4| XXXXXXXX | | |
-| 1.5| XXXXXXXX | | |
-| 1.6| XXXXXXXX | | |
-| 1.7| XXXXXXXX | | |
-| 1.8| XXXXXXXX | | |
+
 
 # Índice 
 
