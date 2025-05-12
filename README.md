@@ -7,7 +7,7 @@
 + A2. Emelly Cristina Grana de Oliveira - 22402234
 + A3. Ennoile Raquel Martins Ferreira - 22400268
 + A4. Heloíse Vitória Cruz Brito - 22400272
-+ A5. Rhanna Karoline Batista Ribeiro - 
++ A5. Rhanna Karoline Batista Ribeiro - 22402226
 
 **Docente:** Andrey Antonio de Oliveira Rodrigues
 
