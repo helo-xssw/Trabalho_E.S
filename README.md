@@ -23,3 +23,4 @@ Essa preparação inicial teve como objetivo garantir um direcionamento claro, o
 - [2 - Desing Thinking](https://github.com/helo-xssw/Trabalho_E.S/tree/main/2_Desing_Thinking)
 - [3 - Backlog do Produto](https://github.com/users/helo-xssw/projects/2)
 - [5 - Backlog do Sprint](https://github.com/users/helo-xssw/projects/3)
+- [Link do Notion](https://www.notion.so/1d0c9eea8d778067be61f84c76e506fc?v=1d0c9eea8d778143bbd0000c075e73e5)
