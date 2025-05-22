@@ -18,9 +18,9 @@
 Essa preparação inicial teve como objetivo garantir um direcionamento claro, organizado e colaborativo para o projeto, criando uma base sólida para as próximas fases da engenharia de software.
 
 ## Tópicos do trabalho
-
-- [1 - Plano de Trabalho](https://github.com/helo-xssw/Trabalho_E.S/blob/main/1_Trabalho_Pratico_I/1_Plano_de_Trabalho.md)
-- [2 - Desing Thinking](https://github.com/helo-xssw/Trabalho_E.S/tree/main/2_Desing_Thinking)
-- [3 - Backlog do Produto](https://github.com/users/helo-xssw/projects/2)
-- [5 - Backlog do Sprint](https://github.com/users/helo-xssw/projects/3)
 - [Link do Notion](https://www.notion.so/1d0c9eea8d778067be61f84c76e506fc?v=1d0c9eea8d778143bbd0000c075e73e5)
+
+## Trabalhos Práticos Anteriores
+
+- [1 - Trabalho Prático I](https://github.com/helo-xssw/Trabalho_E.S/blob/main/1_Trabalho_Pratico_I/1_Plano_de_Trabalho.md)
+
