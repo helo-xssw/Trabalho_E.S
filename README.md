@@ -22,5 +22,5 @@ Essa preparação inicial teve como objetivo garantir um direcionamento claro, o
 
 ## Trabalhos Práticos Anteriores
 
-- [1 - Trabalho Prático I](https://github.com/helo-xssw/Trabalho_E.S/blob/main/1_Trabalho_Pratico_I/1_Plano_de_Trabalho.md)
+- [1 - Trabalho Prático I](https://github.com/helo-xssw/Trabalho_E.S/tree/main/1_Trabalho_Pratico_I)
 
