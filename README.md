@@ -17,9 +17,16 @@
 
 Essa preparação inicial teve como objetivo garantir um direcionamento claro, organizado e colaborativo para o projeto, criando uma base sólida para as próximas fases da engenharia de software.
 
-## Tópicos do trabalho
+## Tópicos do  Trabalho Prático II
+- [Arquitetura do Software](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/1_Arquitetura_do_Software.md)
+- [Tecnologias do Projeto](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/2_Tecnologias_do_Projeto.md)
+- [Diagrama de Contexto](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/3_Diagrama_de_Contexto.md)
+- [Diagrama de Containers](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/4_Diagrama_de_Containers.md)
+- [Diagrama de Componentes](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/5_Diagrama_de_Componentes.md)
+- [Diagrama de Código](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/6_Diagrama_de_Classes.md)
+- [Rastreabilidade com Histórias do Usuário](https://github.com/heloxssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/7_Rastreabilidade.md)
 - [Link do Notion](https://www.notion.so/1d0c9eea8d778067be61f84c76e506fc?v=1d0c9eea8d778143bbd0000c075e73e5)
-
+  
 ## Trabalhos Práticos Anteriores
 
 - [1 - Trabalho Prático I](https://github.com/helo-xssw/Trabalho_E.S/tree/main/1_Trabalho_Pratico_I)
