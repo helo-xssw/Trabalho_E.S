@@ -4,7 +4,11 @@
 
 - A seguir, temos uma imagem representando a interação entre os principais componentes dessas arquiteturas, evidenciando o fluxo de dados entre o usuário, o aplicativo e o backend.
 
-[![Inserir-um-t-tulo-1.png](https://i.postimg.cc/2y4h0Ctp/Inserir-um-t-tulo-1.png)](https://postimg.cc/XBYrJ63x)
+---
+
+###  Arquitetura MVC
+
+[![Inserir-um-t-tulo-2.png](https://i.postimg.cc/nrc9Gqqm/Inserir-um-t-tulo-2.png)](https://postimg.cc/XGmvVGHN)
 
 ### ▪️ Visão
 
@@ -37,6 +41,12 @@ Armazena todas as informações da aplicação, como:
 - Regras de restrição para doação
 - Mensagens de notificação
 
+--- 
+
+### Arquitetura Cliente-Servidor
+
+[![C-pia-de-Inserir-um-t-tulo-1.png](https://i.postimg.cc/ZqpNbbTW/C-pia-de-Inserir-um-t-tulo-1.png)](https://postimg.cc/KKcjQy3b)
+
 ### ▪️Comunicação Client-Server
 
 Todo o sistema segue a **arquitetura Client-Server**, onde:
@@ -49,6 +59,8 @@ Essa separação garante:
 - Flexibilidade na evolução de front e back-end
 - Segurança e controle centralizado
 - Possibilidade de integração futura com outros sistemas de saúde
+
+--- 
 
 ## 📊 Tabela de Justificativa 
 
