@@ -1,21 +1,53 @@
-# Arquitetura utilizada: Arquitetura em camadas
+## Arquitetura do Software
 
-A **arquitetura em camadas** é um modelo de organização de software que divide o sistema em camadas separadas por responsabilidade, como:
+### ▪️ Visão
 
-- **Apresentação:** Interface com o usuário.
-- **Aplicação:** Controle e regras de uso.
-- **Domínio:** Regras de negócio.
-- **Infraestrutura:** Banco de dados, APIs externas, etc.
+A **Visão** é responsável pela interface com o usuário no aplicativo móvel.
+Essa camada apresenta as telas de **login, cadastro, agendamento de doação, histórico, informações sobre sangue, entre outras funcionalidades**.
+Toda a interação do usuário acontece aqui.
 
-## Justificativa da utilização da arquitetura em camadas no desenvolvimento do aplicativo DoeVida
+### ▫️Controlador 
 
-A **arquitetura em camadas** é ideal para o sistema **DoeVida** por ser **simples**, **organizada** e **adequada a um prazo curto (6 meses)** com uma **equipe pequena (5 pessoas)**.
+O **Controlador** é responsável por mediar a comunicação entre a Visão (as telas do app) e o restante do sistema.
+No app, ele é responsável por **capturar ações do usuário** (como “agendar uma doação” ou “editar perfil”), enviar esses dados ao backend por meio de **requisições HTTP (API REST)** e exibir as respostas adequadas (mensagem de sucesso, dados atualizados, etc.).
 
-Essa arquitetura permite:
+### ▪️ Modelo
 
-- Separação clara de responsabilidades, facilitando o desenvolvimento e a manutenção.
-- Um backend limpo e reutilizável, essencial para um sistema que, por enquanto, será apenas um aplicativo móvel.
-- Boa escalabilidade vertical, suportando picos de acesso durante campanhas de doação.
-- Facilidade na aplicação de regras de segurança em pontos estratégicos do sistema.
+O **Modelo** representa a lógica e os dados do sistema.
+No backend, ele se conecta com o banco de dados para realizar operações como:
 
-Em resumo, a Arquitetura em Camadas oferece um **bom equilíbrio entre produtividade, segurança e estruturação**, sendo **perfeita para um MVP** com **potencial de evolução futura**.
+- Salvar novo usuário
+- Verificar agendamentos existentes
+- Validar reagendamentos
+- Consultar histórico de doações
+- Essa camada é onde ficam as regras de negócio (ex: “só pode reagendar com 24h de antecedência”) e a manipulação direta dos dados.
+
+###  ▫️Bando de Dados
+
+Armazena todas as informações da aplicação, como:
+
+- Dados dos usuários (nome, CPF, localidade, status de doador)
+- Agendamentos realizados
+- Regras de restrição para doação
+- Mensagens de notificação
+
+### ▪️Comunicação Client-Server
+
+Todo o sistema segue a **arquitetura Client-Server**, onde:
+
+- O **cliente** é o aplicativo móvel que roda no dispositivo do doador
+- O **servidor** é responsável por processar as requisições (API REST) e acessar o banco de dados
+
+Essa separação garante:
+
+- Flexibilidade na evolução de front e back-end
+- Segurança e controle centralizado
+- Possibilidade de integração futura com outros sistemas de saúde
+
+## 📊 Tabela de Justificativa
+
+|Arquitetura|Aplicada em|Motivo da Escolha|
+|-|-|-|
+|MVC (Model-View-Controller)|Aplicativo móvel (frontend)|Organiza melhor a estrutura do app; separa visual (UI), lógica (controller) e dados (model); facilita manutenção e testes.|
+|Arquitetura em Camadas|	Aplicativo móvel (frontend)|	Torna o código mais modular e reutilizável; cada camada tem responsabilidade única: apresentação, lógica, comunicação externa, etc.|
+|Client-Server|Comunicação geral|O app (cliente) envia requisições ao servidor por meio de APIs; o backend processa e responde. Escalável, seguro e de fácil manutenção.|
