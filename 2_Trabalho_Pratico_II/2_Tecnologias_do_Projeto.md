@@ -1,14 +1,14 @@
 ## 🗺️ Mapa de Tecnologias
 
-[![DoeVida.png](https://i.postimg.cc/m24tqpRY/DoeVida.png)](https://postimg.cc/t7rqn5sJ)
+[![DoeVida.png](https://i.postimg.cc/hPFPGTbP/DoeVida.png)](https://postimg.cc/G9Q17B5Z)
 
 ## 📋 Tabela de Tecnologias 
 
 |Tecnologia|Camada|Justificativa|
 |----------|------|-------------|
 |**Flutter / React Native**|Frontend Mobile|Permitem desenvolvimento multiplataforma (Android/iOS) com desempenho nativo e interface moderna.|
-|**REST + JSON**|Frontend|Leve, simples e amplamente suportado para comunicação entre frontend e backend.|
-|**Firebase Auth**|Frontend|Fácil de integrar, seguro e com suporte a login por e-mail, número de telefone e mais.|
+|**REST + JSON**|API|Leve, simples e amplamente suportado para comunicação entre frontend e backend.|
+|**Firebase Auth**|Autenticação|Fácil de integrar, seguro e com suporte a login por e-mail, número de telefone e mais.|
 |Node.js + Express|	Backend	|Rápido, escalável e com grande comunidade — ideal para APIs leves e serviços REST.|
 |Spring Boot (alternativa)|	Backend |Indicado se o time já tem familiaridade com Java e deseja um framework robusto.|
 |PostgreSQL| Banco de Dados| Relacional	Confiável, gratuito e com excelente suporte a dados estruturados como usuários e agendamentos.|
