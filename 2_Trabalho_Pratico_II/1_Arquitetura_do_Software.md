@@ -1,4 +1,4 @@
-## Arquitetura do Software 📐
+## 📐 Arquitetura do Software 
 
  Os padrões de arquitetura escolhidos foram o **Modelo MVC** (Model-View-Controller), a **Arquitetura em Camadas** e a **Arquitetura Cliente-Servidor**, definidos com base na proposta do aplicativo de doação de sangue, que exige organização, escalabilidade e uma comunicação eficiente entre cliente e servidor.
 
@@ -50,7 +50,7 @@ Essa separação garante:
 - Segurança e controle centralizado
 - Possibilidade de integração futura com outros sistemas de saúde
 
-## Tabela de Justificativa 📊
+## 📊 Tabela de Justificativa 
 
 |Arquitetura|Aplicada em|Motivo da Escolha|
 |-|-|-|
