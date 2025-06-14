@@ -1,13 +1,25 @@
 ## 🗺️ Mapa de Tecnologias
 
-A seguir, apresentamos o mapa de tecnologias definido para o desenvolvimento do aplicativo. Ele foi elaborado com base nas necessidades funcionais e não funcionais do projeto, considerando boas práticas de desenvolvimento, viabilidade técnica e alinhamento com a arquitetura adotada (MVC + Camadas no app móvel e Client-Server para comunicação com o backend). O objetivo é garantir uma base tecnológica estável, escalável e adequada à realidade de um MVP voltado à saúde pública municipal.
+ A seguir, apresentamos o mapa de tecnologias definido para o desenvolvimento do aplicativo. Ele foi elaborado com base nas necessidades funcionais e não funcionais do projeto, considerando boas práticas de desenvolvimento, viabilidade técnica e alinhamento com a arquitetura adotada (MVC + Camadas no app móvel e Client-Server para comunicação com o backend). O objetivo é garantir uma base tecnológica estável, escalável e adequada à realidade de um MVP voltado à saúde pública municipal.
 
 ### Legenda e Estrutura do Mapa de Tecnologias
-- O mapa está organizado de forma a representar os principais blocos de desenvolvimento do sistema, divididos em:
+ O mapa está organizado de forma a representar os principais blocos de desenvolvimento do sistema, divididos em:
+
+- **Frontend (Aplicativo Móvel):** tecnologias e frameworks utilizados para a construção da interface do usuário e interação direta com o sistema.
+
+- **Backend (Servidor):** tecnologias responsáveis por tratar regras de negócio, persistência de dados e fornecimento de APIs.
+
+- **Banco de Dados:** tecnologias utilizadas para armazenar as informações do sistema.
+
+- **DevOps/CI/CD:** ferramentas que auxiliam na automação de testes, integração contínua e entrega contínua do produto.
+
+- **Comunicação e Integração:** protocolos e formatos utilizados para comunicação entre app e servidor.
 
 [![DoeVida.png](https://i.postimg.cc/hPFPGTbP/DoeVida.png)](https://postimg.cc/G9Q17B5Z)
 
 ## 📋 Tabela de Tecnologias 
+
+ A seguir, apresentamos a tabela de tecnologias utilizadas no desenvolvimento do aplicativo, organizadas conforme sua função dentro da arquitetura do sistema. Cada tecnologia foi escolhida com base em critérios como compatibilidade com a proposta do projeto, facilidade de uso, suporte da comunidade e adequação ao contexto de um MVP voltado à saúde pública municipal. A tabela inclui uma breve descrição das ferramentas adotadas, destacando seu papel no aplicativo e os motivos da escolha.
 
 |Tecnologia|Camada|Justificativa|
 |----------|------|-------------|
