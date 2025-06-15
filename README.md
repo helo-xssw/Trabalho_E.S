@@ -11,11 +11,16 @@
 
 **Docente:** Andrey Antonio de Oliveira Rodrigues
 
-- Este trabalho marca a etapa inicial do desenvolvimento de um aplicativo voltado à área de saúde pública, seguindo os princípios do Design Thinking nas fases de inspiração e ideação. Nesta fase, foi definido o contexto do problema, estruturado o plano de trabalho e realizado todo o planejamento necessário antes do início da construção do software.
+Esta segunda etapa marca a evolução do projeto DoeVida, com foco na definição da arquitetura do sistema a partir dos requisitos levantados na fase anterior. A modelagem arquitetural foi guiada pelo **Modelo C4** de Simon Brown, permitindo representar de forma clara e hierárquica os níveis de abstração do sistema: desde o contexto geral até os principais containers e componentes internos.
 
-- Foram elaborados artefatos fundamentais para guiar o desenvolvimento, incluindo o Golden Circle, a Análise SWOT, a pesquisa de Soluções Existentes, a criação de Personas representando os usuários do sistema, além da estruturação do Backlog do Produto (com histórias de usuário, critérios de aceitação e regras de negócio), o Backlog das Sprints e o Plano de Trabalho.
+Com base no backlog elaborado na primeira etapa, foram tomadas decisões arquiteturais fundamentais, abrangendo a definição de camadas do sistema, escolha das tecnologias, e criação dos diagramas C4, incluindo:
 
-Essa preparação inicial teve como objetivo garantir um direcionamento claro, organizado e colaborativo para o projeto, criando uma base sólida para as próximas fases da engenharia de software.
+- Diagrama de Contexto
+- Diagrama de Containers
+- Diagrama de Componentes
+- Diagrama de Código
+
+Além disso, foi realizada a rastreabilidade entre as histórias de usuário e os elementos arquiteturais, permitindo evidenciar como os requisitos funcionais influenciaram diretamente a construção da arquitetura proposta.
 
 ## Tópicos do  Trabalho Prático II
 - [Arquitetura do Software](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/1_Arquitetura_do_Software.md)
