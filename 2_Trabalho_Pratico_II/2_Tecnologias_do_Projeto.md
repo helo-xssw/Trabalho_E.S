@@ -24,7 +24,7 @@
 |Tecnologia|Camada|Justificativa|
 |----------|------|-------------|
 |**Flutter / React Native**|Frontend Mobile|Permitem desenvolvimento multiplataforma (Android/iOS) com desempenho nativo e interface moderna.|
-|React.js|	Frontend Web|	Usado para painel administrativo ou acesso web simples, com ampla comunidade e suporte.|
+|**React.js**|	Frontend Web|	Usado para painel administrativo ou acesso web simples, com ampla comunidade e suporte.|
 |**REST + JSON**|API|Leve, simples e amplamente suportado para comunicação entre frontend e backend.|
 |**Firebase Auth**|Autenticação|Fácil de integrar, seguro e com suporte a login por e-mail, número de telefone e mais.|
 |**Node.js + Express**|	Backend	|Rápido, escalável e com grande comunidade — ideal para APIs leves e serviços REST.|
