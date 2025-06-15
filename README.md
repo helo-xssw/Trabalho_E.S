@@ -31,6 +31,8 @@ Além disso, foi realizada a rastreabilidade entre as histórias de usuário e o
 - [Diagrama de Código](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/6_Diagrama_de_Classes.md)
 - [Rastreabilidade com Histórias do Usuário](https://github.com/heloxssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/7_Rastreabilidade.md)
 - [Link do Notion](https://www.notion.so/1d0c9eea8d778067be61f84c76e506fc?v=1d0c9eea8d778143bbd0000c075e73e5)
+- [Backlog do Produto](https://github.com/users/helo-xssw/projects/2/views/1)
+- [Backlog Sprints](https://github.com/users/helo-xssw/projects/3)
   
 ## Trabalhos Práticos Anteriores
 
