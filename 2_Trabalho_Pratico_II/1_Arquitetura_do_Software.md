@@ -8,7 +8,7 @@
 
 ###  Arquitetura MVC
 
-[![Inserir-um-t-tulo-2.png](https://i.postimg.cc/nrc9Gqqm/Inserir-um-t-tulo-2.png)](https://postimg.cc/XGmvVGHN)
+[![Inserir-um-t-tulo-3.png](https://i.postimg.cc/1RFBrg7C/Inserir-um-t-tulo-3.png)](https://postimg.cc/149D9zQw)
 
 ### ▪️ Visão
 
@@ -45,7 +45,7 @@ Armazena todas as informações da aplicação, como:
 
 ### Arquitetura Cliente-Servidor
 
-[![C-pia-de-Inserir-um-t-tulo-1.png](https://i.postimg.cc/ZqpNbbTW/C-pia-de-Inserir-um-t-tulo-1.png)](https://postimg.cc/KKcjQy3b)
+[![C-pia-de-Inserir-um-t-tulo-2.png](https://i.postimg.cc/1zgDBtr5/C-pia-de-Inserir-um-t-tulo-2.png)](https://postimg.cc/zLrLXqQ9)
 
 ### ▪️Comunicação Client-Server
 
