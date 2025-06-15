@@ -11,7 +11,7 @@
 
 **Docente:** Andrey Antonio de Oliveira Rodrigues
 
-Esta segunda etapa marca a evolução do projeto DoeVida, com foco na definição da arquitetura do sistema a partir dos requisitos levantados na fase anterior. A modelagem arquitetural foi guiada pelo **Modelo C4** de Simon Brown, permitindo representar de forma clara e hierárquica os níveis de abstração do sistema: desde o contexto geral até os principais containers e componentes internos.
+Esta segunda etapa marca a evolução do projeto *DoeVida*, com foco na definição da arquitetura do sistema a partir dos requisitos levantados na fase anterior. A modelagem arquitetural foi guiada pelo **Modelo C4** de Simon Brown, permitindo representar de forma clara e hierárquica os níveis de abstração do sistema: desde o contexto geral até os principais containers e componentes internos.
 
 Com base no backlog elaborado na primeira etapa, foram tomadas decisões arquiteturais fundamentais, abrangendo a definição de camadas do sistema, escolha das tecnologias, e criação dos diagramas C4, incluindo:
 
