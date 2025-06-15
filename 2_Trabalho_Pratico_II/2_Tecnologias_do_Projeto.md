@@ -15,7 +15,7 @@
 
 - **Comunicação e Integração:** protocolos e formatos utilizados para comunicação entre app e servidor.
 
-[![DoeVida.png](https://i.postimg.cc/hPFPGTbP/DoeVida.png)](https://postimg.cc/G9Q17B5Z)
+[![Doe-Vida-3.png](https://i.postimg.cc/zXRmPfRP/Doe-Vida-3.png)](https://postimg.cc/w7Hb1g2h)
 
 ## 📋 Tabela de Tecnologias 
 
