@@ -32,7 +32,7 @@ No backend, ele se conecta com o banco de dados para realizar operações como:
 - Consultar histórico de doações
 - Essa camada é onde ficam as regras de negócio (ex: “só pode reagendar com 24h de antecedência”) e a manipulação direta dos dados.
 
-###  ▫️Bando de Dados
+###  ▫️Banco de Dados
 
 Armazena todas as informações da aplicação, como:
 
