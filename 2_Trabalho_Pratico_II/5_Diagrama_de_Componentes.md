@@ -6,7 +6,7 @@ O **Diagrama de Componentes**, também baseado no Modelo C4, detalha a organiza�
 
 ### Diagrama de Componentes
 
-[![Diagrama-Componentes-drawio-1.png](https://i.postimg.cc/9F2H4hk4/Diagrama-Componentes-drawio-1.png)](https://postimg.cc/DmxMDtnF)
+[![Diagrama-Componentes-2-drawio.png](https://i.postimg.cc/W4v1f8NX/Diagrama-Componentes-2-drawio.png)](https://postimg.cc/Mn9wnyjQ)
 
 ### ▪️ Interfaces Externas
 |**Componente**|	**Descrição**|
