@@ -26,6 +26,20 @@
 
 | **Condição de Entrada** | Classes Válidas | Classes Inválidas | Classes Inválidas |
 |-|-|-|-|
-| | | | |
+|E-mail informado corretamente|E-mail no formato correto (ex: user@exemplo.com) (1)	|E-mail sem “@” ou domínio (ex: usuario.com) (2) |Campo de e-mail em branco (3)|
+|CEP pertence ao município de Itacoatiara-AM|	CEP válido de Itacoatiara (ex: 69100-000)| (4)	CEP de outro município (ex: 69000-000 – Manaus) | (5)	Campo de CEP em branco (6)|
+|Senha válida segundo critérios mínimos de segurança	|Senha com ao menos 8 caracteres, contendo letras e números | (7)	Senha com menos de 8 caracteres |(8)	Senha apenas com letras ou números simples (9)|
+|CNS preenchido corretamente| 15 dígitos numéricos (10) |	Menos de 15 dígitos (11)	| Campo de CNS em branco (12)|
+
+#### 💻 Casos de Teste 
+
+| **Casos de Teste** | **Classes de Equivalência** | **Entradas**                                                  | **Resultado Esperado**                  |
+|--------------------|-----------------------------|---------------------------------------------------------------|------------------------------------------|
+| Caso 1             | 1, 4, 7, 10                  | usuario@exemplo.com, 69100-000, Senha123, 123456789012345     | Cadastro permitido                       |
+| Caso 2             | **2**, 4, 7, 10                  | usuario.com, 69100-000, Senha123, 123456789012345             | Cadastro inválido (e-mail mal formatado) |
+| Caso 3             | 1, **5**, 7, 10                  | usuario@exemplo.com, 69000-000, Senha123, 123456789012345     | Cadastro inválido (CEP fora da área)     |
+| Caso 4             | 1, 4, **8**, 10                  | usuario@exemplo.com, 69100-000, 12345, 123456789012345        | Cadastro inválido (senha fraca)          |
+| Caso 5             | 1, 4, 7, **11**                  | usuario@exemplo.com, 69100-000, Senha123, 12345               | Cadastro inválido (CNS inválido)         |
+| Caso 6             | **3**, **5**, **8**, **12**                  | "", 69000-000, abcdefg, ""                                     | Cadastro inválido (vários campos inválidos) |
 
 ----
