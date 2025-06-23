@@ -22,4 +22,10 @@
 |**RN03**| Todos os dados pessoais e sensíveis dos usuários devem ser protegidos conforme a Lei Geral de Proteção de Dados (LGPD).|
 |**RN04**|  sistema deve exigir autenticação segura (CPF ou e-mail + senha) para acesso às informações pessoais e funcionalidades privadas.| 
 
+#### 📑 Classes de Equivalência 
+
+| **Condição de Entrada** | Classes Válidas | Classes Inválidas | Classes Inválidas |
+|-|-|-|-|
+| | | | |
+
 ----
