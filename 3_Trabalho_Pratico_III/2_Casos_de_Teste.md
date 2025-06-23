@@ -35,12 +35,12 @@
 
 | **Casos de Teste** | **Classes de Equivalência** | **Entradas**                                                  | **Resultado Esperado**                  |
 |--------------------|-----------------------------|---------------------------------------------------------------|------------------------------------------|
-| Caso 1             | 1, 4, 7, 10                  | usuario@exemplo.com, 69100-000, Senha123, 123456789012345     | Cadastro permitido                       |
-| Caso 2             | **2**, 4, 7, 10                  | usuario.com, 69100-000, Senha123, 123456789012345             | Cadastro inválido (e-mail mal formatado) |
-| Caso 3             | 1, **5**, 7, 10                  | usuario@exemplo.com, 69000-000, Senha123, 123456789012345     | Cadastro inválido (CEP fora da área)     |
-| Caso 4             | 1, 4, **8**, 10                  | usuario@exemplo.com, 69100-000, 12345, 123456789012345        | Cadastro inválido (senha fraca)          |
-| Caso 5             | 1, 4, 7, **11**                  | usuario@exemplo.com, 69100-000, Senha123, 12345               | Cadastro inválido (CNS inválido)         |
-| Caso 6             | **3**, **5**, **8**, **12**                  | "", 69000-000, abcdefg, ""                                     | Cadastro inválido (vários campos inválidos) |
+| CT01             | 1, 4, 7, 10                  | usuario@exemplo.com, 69100-000, Senha123, 123456789012345     | Cadastro permitido                       |
+| CT02             | **2**, 4, 7, 10                  | usuario.com, 69100-000, Senha123, 123456789012345             | Cadastro inválido (e-mail mal formatado) |
+| CT03             | 1, **5**, 7, 10                  | usuario@exemplo.com, 69000-000, Senha123, 123456789012345     | Cadastro inválido (CEP fora da área)     |
+| CT04             | 1, 4, **8**, 10                  | usuario@exemplo.com, 69100-000, 12345, 123456789012345        | Cadastro inválido (senha fraca)          |
+| CT05             | 1, 4, 7, **11**                  | usuario@exemplo.com, 69100-000, Senha123, 12345               | Cadastro inválido (CNS inválido)         |
+| CT06             | **3**, **5**, **8**, **12**                  | "", 69000-000, abcdefg, ""                                     | Cadastro inválido (vários campos inválidos) |
 
 ----
 > H7: Como um doador em potencial, eu quero responder a um questionário de triagem no app, para saber se estou apto a doar sangue antes de agendar.
@@ -74,9 +74,48 @@
 
 | **Casos de Teste** | **Classes de Equivalência** | **Entradas (Situação)**                                                                 | **Resultado Esperado**                               |
 |--------------------|-----------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------|
-| Caso 1             | 1, 4                        | Respostas indicam saúde apta, nenhum critério impeditivo                                | Triagem aprovada. Acesso ao agendamento liberado     |
-| Caso 2             | **2**, 5                        | Resposta indica febre nos últimos dias (inaptidão temporária), tentativa em 2 dias      | Triagem reprovada. Agendamento bloqueado             |
-| Caso 3             | **3**, **6**                        | Resposta indica hepatite (inaptidão definitiva), tentativa de seguir para exames         | Triagem reprovada. Agendamento permanentemente negado|
-| Caso 4             | **2**, 7                        | Reprovado anteriormente por gripe, tenta após 8 dias                                     | Triagem liberada automaticamente após 7 dias         |
-| Caso 5             | **2**, **8**                        | Reprovado por motivo temporário, apresenta justificativa médica inválida                 | Triagem continua reprovada. Acesso negado            |
-| Caso 6             | **2**, 4                        | Reprovado anteriormente por motivo temporário, apresenta justificativa médica aceita     | Triagem liberada antecipadamente. Acesso autorizado  |
+| CT01            | 1, 4                        | Respostas indicam saúde apta, nenhum critério impeditivo                                | Triagem aprovada. Acesso ao agendamento liberado     |
+| CT02             | **2**, 5                        | Resposta indica febre nos últimos dias (inaptidão temporária), tentativa em 2 dias      | Triagem reprovada. Agendamento bloqueado             |
+| CT03            | **3**, **6**                        | Resposta indica hepatite (inaptidão definitiva), tentativa de seguir para exames         | Triagem reprovada. Agendamento permanentemente negado|
+| CT04            | **2**, 7                        | Reprovado anteriormente por gripe, tenta após 8 dias                                     | Triagem liberada automaticamente após 7 dias         |
+| CT05            | **2**, **8**                        | Reprovado por motivo temporário, apresenta justificativa médica inválida                 | Triagem continua reprovada. Acesso negado            |
+| CT06            | **2**, 4                        | Reprovado anteriormente por motivo temporário, apresenta justificativa médica aceita     | Triagem liberada antecipadamente. Acesso autorizado  |
+
+---
+
+> H8: Como um doador apto, eu quero agendar meus exames iniciais diretamente pelo app, para confirmar minha elegibilidade para doar sangue.
+
+#### ✅ Critérios de Aceitação
+
+- Disponível apenas para usuários aptos na triagem e residentes no município.
+
+- O usuário visualiza datas e locais de coleta apenas do hospital municipal.
+
+- O agendamento é confirmado com data, hora e local, e aparece na conta do usuário.
+
+
+#### 📋 Regras de Negócio
+
+|**Regra de Negócio**| Descrição|
+|------------------------|-----------|
+|**RN08**| Os locais disponíveis para coleta de sangue e exames devem estar vinculados exclusivamente ao hospital municipal.|
+|**RN09**| A funcionalidade de agendamento deve estar disponível apenas para usuários aprovados na triagem.|
+|**RN10**| O sistema deve permitir que o usuário ou um administrador realizem o reagendamento manual em casos de ausência, cancelamento ou indisponibilidade. O reagendamento automático deve ocorrer apenas se houver cancelamento por parte da unidade de saúde, com sugestão de nova data dentro de 48 horas.|
+|**RN11**| O sistema deve enviar notificações automáticas via push, e-mail e SMS, sendo: lembretes de agendamento 24 horas antes da consulta, confirmação imediata após o agendamento, alertas no início de campanhas de doação, e notificações de resultados assim que forem disponibilizados no sistema.|
+
+#### 📑 Classes de Equivalência 
+
+| **Condição de Entrada**               | **Classes Válidas**                    | **Classes Inválidas**                         | **Classes Inválidas**                            |
+|--------------------------------------|----------------------------------------|-----------------------------------------------|--------------------------------------------------|
+| Aprovação na triagem                 | Usuário aprovado na triagem (1)        | Usuário reprovado na triagem (2)              | Usuário ainda não realizou triagem (3)           |
+| Disponibilidade de data/horário      | Horário com vagas disponíveis (4)      | Horário com todas as vagas preenchidas (5)    | Data inválida (feriado ou fora do calendário) (6)|
+
+#### 💻 Casos de Teste 
+
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                        | **Resultado Esperado**                                                 |
+|-------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
+| CT01  | 1, 4                         | Usuário aprovado + horário com vagas                             | Agendamento confirmado com data, hora e local                         |
+| CT02  | 1, **5**                         | Usuário aprovado + horário esgotado                              | Sistema bloqueia agendamento e informa que o horário está indisponível|
+| CT03  | 1, **6**                         | Usuário aprovado + data inválida                                 | Agendamento recusado com mensagem de "data indisponível"             |
+| CT04  | **2**, 4                         | Usuário reprovado + horário com vagas                             | Sistema impede agendamento com aviso de reprovação na triagem        |
+| CT05  | **3**, 4                         | Usuário sem triagem + horário com vagas                           | Sistema impede agendamento e solicita conclusão da triagem            |
