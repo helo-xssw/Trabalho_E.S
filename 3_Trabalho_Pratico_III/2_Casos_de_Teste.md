@@ -22,7 +22,7 @@
 |**RN03**| Todos os dados pessoais e sensíveis dos usuários devem ser protegidos conforme a Lei Geral de Proteção de Dados (LGPD).|
 |**RN04**|  sistema deve exigir autenticação segura (CPF ou e-mail + senha) para acesso às informações pessoais e funcionalidades privadas.| 
 
-#### 📑 Classes de Equivalência 
+#### 📑 Classes de Equivalência - Cadastro de Usuário
 
 | **Condição de Entrada** | Classes Válidas | Classes Inválidas | Classes Inválidas |
 |-|-|-|-|
@@ -31,7 +31,7 @@
 |Senha válida segundo critérios mínimos de segurança	|Senha com ao menos 8 caracteres, contendo letras e números | (7)	Senha com menos de 8 caracteres |(8)	Senha apenas com letras ou números simples (9)|
 |CNS preenchido corretamente| 15 dígitos numéricos (10) |	Menos de 15 dígitos (11)	| Campo de CNS em branco (12)|
 
-#### 💻 Casos de Teste 
+#### 💻 Casos de Teste - Cadastro de Usuário
 
 | **Casos de Teste** | **Classes de Equivalência** | **Entradas**                                                  | **Resultado Esperado**                  |
 |--------------------|-----------------------------|---------------------------------------------------------------|------------------------------------------|
@@ -62,7 +62,7 @@
 |**RN06**| Usuários reprovados na triagem não poderão agendar exames ou coletas até que passem por nova avaliação, a ser liberada automaticamente após 7 dias ou mediante apresentação de justificativa médica.|
 |**RN07**| A triagem deve seguir os critérios estabelecidos na Resolução RDC nº 36/2013 da Anvisa e na Portaria nº 204/2007 do Ministério da Saúde, garantindo padronização e conformidade com o atendimento no SUS.|
 
-#### 📑 Classes de Equivalência 
+#### 📑 Classes de Equivalência - Triagem do Doador
 
 | **Condição de Entrada**                             | **Classes Válidas**                     | **Classes Inválidas**                            | **Classes Inválidas**                          |
 |-----------------------------------------------------|-----------------------------------------|--------------------------------------------------|------------------------------------------------|
@@ -70,7 +70,7 @@
 | Acesso ao agendamento de exames                     | Usuário aprovado na triagem (4)         | Usuário reprovado e ainda dentro dos 7 dias (5)  | Usuário sem justificativa após reprovação (6)  |
 | Reavaliação após reprovação                         | Passaram 7 dias após reprovação (7)     | Tentativa antes de 7 dias sem justificativa (5)  | Justificativa médica inválida (8)              |
 
-#### 💻 Casos de Teste 
+#### 💻 Casos de Teste - Triagem do Doador
 
 | **Casos de Teste** | **Classes de Equivalência** | **Entradas (Situação)**                                                                 | **Resultado Esperado**                               |
 |--------------------|-----------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------|
@@ -103,14 +103,14 @@
 |**RN10**| O sistema deve permitir que o usuário ou um administrador realizem o reagendamento manual em casos de ausência, cancelamento ou indisponibilidade. O reagendamento automático deve ocorrer apenas se houver cancelamento por parte da unidade de saúde, com sugestão de nova data dentro de 48 horas.|
 |**RN11**| O sistema deve enviar notificações automáticas via push, e-mail e SMS, sendo: lembretes de agendamento 24 horas antes da consulta, confirmação imediata após o agendamento, alertas no início de campanhas de doação, e notificações de resultados assim que forem disponibilizados no sistema.|
 
-#### 📑 Classes de Equivalência 
+#### 📑 Classes de Equivalência - Agendamento de Exames
 
 | **Condição de Entrada**               | **Classes Válidas**                    | **Classes Inválidas**                         | **Classes Inválidas**                            |
 |--------------------------------------|----------------------------------------|-----------------------------------------------|--------------------------------------------------|
 | Aprovação na triagem                 | Usuário aprovado na triagem (1)        | Usuário reprovado na triagem (2)              | Usuário ainda não realizou triagem (3)           |
 | Disponibilidade de data/horário      | Horário com vagas disponíveis (4)      | Horário com todas as vagas preenchidas (5)    | Data inválida (feriado ou fora do calendário) (6)|
 
-#### 💻 Casos de Teste 
+#### 💻 Casos de Teste - Agendamento de Exames
 
 | **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                        | **Resultado Esperado**                                                 |
 |-------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
@@ -119,3 +119,42 @@
 | CT03  | 1, **6**                         | Usuário aprovado + data inválida                                 | Agendamento recusado com mensagem de "data indisponível"             |
 | CT04  | **2**, 4                         | Usuário reprovado + horário com vagas                             | Sistema impede agendamento com aviso de reprovação na triagem        |
 | CT05  | **3**, 4                         | Usuário sem triagem + horário com vagas                           | Sistema impede agendamento e solicita conclusão da triagem            |
+
+---
+
+> H9: Como um doador em potencial ou reavaliado, quero acompanhar o status dos meus exames no app, para saber quando poderei doar efetivamente.
+
+#### ✅ Critérios de Aceitação 
+
+- O usuário pode acompanhar o status da triagem e dos exames, visualizando uma das seguintes situações: 'Pendente', 'Em análise', 'Aprovado' ou 'Reprovado'. A exibição será feita por meio de mensagens textuais e ícones coloridos no painel de acompanhamento.
+- O app exibe notificações sobre aprovação ou rejeição com base nos resultados.
+
+- Após aprovação, o usuário ganha acesso às funções de agendamento e histórico de doações.
+
+#### 📋 Regras de Negócio
+
+|**Regra de Negócio**| Descrição|
+|------------------------|-----------|
+|**RN12**|Usuários aprovados nos exames terão o status alterado para 'doador ativo' e acesso a funcionalidades completas. Esse status será válido por 12 meses, podendo ser renovado automaticamente mediante nova avaliação, ou revogado em caso de inaptidão temporária ou definitiva identificada em exames subsequentes.|
+|**RN13**|Usuários não aprovados nos exames terão seu acesso restrito a conteúdos informativos e orientações.|
+
+#### 📑 Classes de Equivalência - Acompanhamento de Exames
+
+| **Condição de Entrada**                | **Classes Válidas**                | **Classes Inválidas**                    | **Classes Inválidas**                  |
+|---------------------------------------|------------------------------------|------------------------------------------|----------------------------------------|
+| Status dos exames                     | Status 'Pendente', 'Em análise', 'Aprovado', 'Reprovado' (1) | Status inexistente ou corrompido (2) | Status vazio/nulo (3)                  |
+| Resultado dos exames                  | Exames aprovados (4)               | Exames reprovados (5)                    | Exames ainda não iniciados (6)         |
+
+#### 💻 Casos de Teste - Acompanhamento de Exames
+
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                               | **Resultado Esperado**                                                                 |
+|--------|------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| CT01   | 1, 4                         | Status 'Aprovado' e exames com resultado positivo                      | Exibe mensagem e ícone verde + libera funções de agendamento e histórico              |
+| CT02   | 1, **5**                         | Status 'Reprovado' e exames com resultado negativo                     | Exibe mensagem e ícone vermelho + bloqueia funcionalidades, exceto informativos       |
+| CT03   | 1, **6**                         | Status 'Pendente' e exames não iniciados                               | Exibe ícone amarelo e texto informando que o exame está pendente                      |
+| CT04   | **2**, 4                         | Status com valor inválido e exames aprovados                           | Exibe erro de sistema ou mensagem padrão de falha                                     |
+| CT05   | **3**, 4                         | Status ausente (nulo) com exames aprovados                             | Exibe erro de carregamento e impede acesso às funções dependentes                     |
+| CT06   | 1, 4                         | Status 'Aprovado' com validade expirada (após 12 meses)                | Exibe aviso de expiração e solicita nova avaliação para manter status de doador ativo |
+
+--- 
+
