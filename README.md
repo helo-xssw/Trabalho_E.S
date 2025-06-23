@@ -23,8 +23,9 @@ Com base no backlog elaborado na primeira etapa, foram tomadas decisões arquite
 Além disso, foi realizada a rastreabilidade entre as histórias de usuário e os elementos arquiteturais, permitindo evidenciar como os requisitos funcionais influenciaram diretamente a construção da arquitetura proposta.
 
 ## Tópicos do  Trabalho Prático III
-- [Issues](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/1_Arquitetura_do_Software.md)
-- [Casos de Teste](https://github.com/helo-xssw/Trabalho_E.S/blob/main/2_Trabalho_Pratico_II/2_Tecnologias_do_Projeto.md)
+- [Issues](https://github.com/helo-xssw/Trabalho_E.S/issues)
+- [Correção Issues](https://github.com/helo-xssw/Trabalho_E.S/blob/main/3_Trabalho_Pratico_III/1_Issues.md)
+- [Casos de Teste](https://github.com/helo-xssw/Trabalho_E.S/blob/main/3_Trabalho_Pratico_III/2_Casos_de_Teste.md)
 
   
 ## Trabalhos Práticos Anteriores
