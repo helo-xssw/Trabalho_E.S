@@ -158,3 +158,187 @@
 
 --- 
 
+> H10: Como um doador em potencial, eu gostaria de acessar conteúdos educativos e motivacionais sobre doação, para tirar dúvidas e ganhar confiança no processo.
+
+#### ✅ Critérios de Aceitação
+
+- A seção educativa com conteúdos sobre doação de sangue estará disponível para todos os usuários, incluindo não cadastrados. No entanto, funcionalidades como salvar conteúdos favoritos ou receber recomendações personalizadas estarão disponíveis apenas para usuários registrados.
+
+- Os conteúdos são direcionados ao público local, com informações específicas sobre o hospital vinculado ao usuário, incluindo horários, campanhas e localização, podendo ser hospital municipal, regional, estadual ou conveniado.
+
+- O conteúdo é acessível mesmo para usuários que ainda não completaram o cadastro.
+
+#### 📋 Regras de Negócio
+
+|**Regra de Negócio**| Descrição|
+|------------------------|-----------|
+|**RN14**| O módulo informativo do app deve estar acessível a todos os usuários, inclusive os que não finalizaram o cadastro.|
+|**RN15**| O conteúdo educacional e informativo deve estar adaptado à realidade e necessidades do hospital e da população do município.|
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
+
+---
+
+> H11: Como doador de sangue, desejo acessar uma lista atualizada de horários disponíveis para doação, para que eu possa escolher o melhor horário e agendar minha doação de forma prática.
+
+#### ✅ Critérios de Aceitação
+
+- O sistema exibe uma lista atualizada de horários disponíveis para doação no hemonúcleo.
+- A lista de horários é mantida atualizada pelo sistema, seja em tempo real ou em períodos pré-definidos.
+- O usuário pode visualizar os dias e horários disponíveis para agendamento de forma clara e acessível.
+- O sistema agenda o horário selecionado, sem verificar limite de vagas ou conflitos.
+- Caso o horário escolhido esteja indisponível, o sistema notifica o usuário e sugere alternativas.
+
+#### 📋 Regras de Negócio
+
+| **Regra de Negócio** | Descrição |
+|----------------------|-----------|
+| **RN14** | O módulo informativo do aplicativo deve permitir acesso irrestrito, estando disponível para todos os usuários, inclusive aqueles que ainda não concluíram o cadastro.|
+| **RN15** | O conteúdo educacional e informativo do aplicativo deve ser personalizado de acordo com as necessidades do hospital e com as características da população do município.|
+| **RN16** | Os horários disponíveis para doação devem ser definidos e atualizados pelo hemonúcleo local, de acordo com sua capacidade de atendimento. |
+| **RN17** | Cada horário de doação deve ter um limite máximo de vagas, definido pelo administrador do hemonúcleo. |
+| **RN18** | O agendamento só poderá ser realizado com pelo menos 24 horas de antecedência da data desejada. |
+| **RN19** | O sistema deve impedir que um mesmo usuário agende dois horários no mesmo dia, exceto em casos de eagendamento por ausência ou cancelamento.|
+| **RN20** | O agendamento de horário será permitido apenas para usuários que estejam aptos segundo os requisitos mínimos de saúde (idade, peso, estado geral de saúde e intervalo entre doações). |
+| **RN21** | Horários que atingirem o limite de agendamentos devem ser automaticamente ocultados ou marcados como indisponíveis. |
+| **RN22** | O cancelamento de agendamento deve ser permitido até 12 horas antes do horário marcado. Após esse prazo, o cancelamento só poderá ser feito por contato direto com o hemonúcleo. |
+| **RN23** | Usuários que faltarem ao agendamento sem aviso prévio serão temporariamente bloqueados de novos agendamentos, pelo período estabelecido pelo hemonúcleo. |
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
+
+---
+
+> H12: Como doador de sangue, desejo receber notificações sobre a campanha vigente do mês, para me manter atualizado e participar ativamente.
+
+## ✅ Critérios de Aceitação
+
+- O sistema envia notificações aos usuários sobre a campanha vigente do mês.
+- As notificações destacam informações relevantes como tema, período, metas e benefícios (quando houver).
+- As notificações são enviadas por meio de push (aplicativo) e/ou e-mail, conforme preferência do usuário.
+- O usuário pode acessar um histórico ou seção fixa com informações da campanha atual e anteriores.
+- O usuário pode configurar a frequência das notificações (diária, semanal, quinzenal ou mensal) e o tipo de recebimento desejado (push, e-mail, ambos ou nenhum).
+
+## 📋 Regras de Negócio
+
+| **Regra de Negócio** | Descrição |
+|----------------------|-----------|
+| **RN24** | O sistema deve enviar notificações mensais sobre campanhas vigentes aos usuários cadastrados. |
+| **RN25** | O conteúdo das notificações será elaborado pelo hemonúcleo, considerando a campanha vigente e alinhado às diretrizes estabelecidas pelo Ministério da Saúde e/ou pela Secretaria Municipal de Saúde, respeitando eventuais atualizações ou orientações complementares desses órgãos. |
+| **RN26** | As notificações devem conter informações claras e relevantes sobre a campanha, como tema, período, metas e benefícios (quando aplicável). |
+| **RN27** | O usuário poderá configurar suas preferências de notificação no aplicativo (tipo, canal e frequência), sendo possível desativá-las, respeitando um limite mínimo definido pelo sistema. |
+| **RN28** | O sistema deve respeitar as configurações de privacidade e não enviar notificações a usuários que desativaram esse recurso. |
+| **RN29** | As notificações devem obrigatoriamente informar o tema e o período da campanha. Informações adicionais, como metas e benefícios, podem ser incluídas quando aplicável. |
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
+
+---
+
+> H13: Como doador de sangue, desejo ter acesso aos resultados dos exames realizados na pré-doação, para que eu possa acompanhar minha saúde e estar ciente da minha aptidão para futuras doações.
+
+#### ✅ Critérios de Aceitação
+
+- O sistema permite que o usuário visualize os resultados dos exames realizados na pré-doação.
+- Os resultados incluem informações sobre aptidão, hemoglobina, pressão, doenças triadas e outras métricas relevantes.
+- Os dados são apresentados de forma clara, segura e acessível.
+- Os resultados são disponibilizados somente após validação e liberação por parte do hemonúcleo.
+- O usuário recebe uma notificação quando os exames forem liberados para consulta.
+- O histórico de exames fica disponível para visualização futura dentro do perfil do usuário.
+
+#### 📋 Regras de Negócio
+
+| **Regra de Negócio** | Descrição |
+|----------------------|-----------|
+| **RN30** |O sistema deve disponibilizar os resultados dos exames da pré-doação em até 7 dias úteis após validação técnica e liberação pelo hemonúcleo. |
+| **RN31** | Os dados de exames devem ser protegidos por autenticação e criptografia, garantindo sigilo médico e segurança da informação. |
+| **RN32** | Os resultados exibidos devem conter explicações simples ou links para informações complementares sobre os indicadores apresentados. |
+| **RN33** | O usuário deve ser notificado assim que os resultados estiverem disponíveis no sistema, por meio de push, e-mail ou SMS, conforme preferência configurada no perfil do usuário. |
+| **RN34** | O histórico de resultados deve ser armazenado no perfil do doador por até 12 meses, e ser acessível a qualquer momento pelo próprio usuário. |
+| **RN35** | O sistema deve destacar se o usuário está apto ou inapto para futuras doações, com base nas informações mais recentes. |
+| **RN36** | Resultados críticos (ex: doenças infecciosas detectadas) devem ser tratados com sigilo e orientações específicas, podendo exigir contato direto do hemonúcleo com o doador. |
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
+
+---
+
+> H14: Como doador de sangue, eu quero receber orientações de cuidado após a doação pelo app, para garantir minha recuperação adequada e saber o que evitar.
+
+#### ✅ Critérios de Aceitação
+
+- O app exibe orientações claras e objetivas sobre cuidados pós-doação assim que o procedimento for registrado como concluído.
+- As orientações incluem recomendações como repouso, hidratação, alimentação e atividades a evitar.
+- O conteúdo é adaptado ao perfil do doador, quando necessário (ex: primeira doação, doação por aférese).
+- “O usuário recebe uma notificação por push e e-mail, com link direto para o conteúdo assim que o procedimento for registrado como concluído.”
+- O conteúdo permanece disponível no histórico do usuário para consulta posterior.
+
+#### 📋 Regras de Negócio
+
+| **Regra de Negócio** | Descrição |
+|----------------------|-----------|
+| **RN37** |O sistema deve enviar uma notificação push ao identificar que o procedimento foi concluído, permitindo acesso às orientações pós-doação por link direto. |
+| **RN38** | As orientações devem seguir a Portaria GM/MS nº XXXX, com revisões semestrais baseadas nas atualizações do Ministério da Saúde. |
+| **RN39** | O conteúdo deve abordar recomendações de hidratação, alimentação, repouso e restrições (ex: evitar esforço físico, dirigir motos). |
+| **RN40** | O sistema deve notificar o usuário com um lembrete e acesso direto às orientações pós-doação. |
+| **RN41** | As orientações devem ser acessíveis a qualquer momento no perfil ou histórico do usuário. |
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
+
+---
+
+> H15: Como doador de sangue, desejo alterar a data ou o horário do meu agendamento com antecedência mínima de 12 horas, por meio de um fluxo simples no aplicativo, para reagendar a doação caso ocorra um imprevisto.
+
+#### ✅ Critérios de Aceitação
+
+- O usuário pode visualizar seus agendamentos futuros no aplicativo.
+- O sistema permite alterar a data e/ou o horário de um agendamento ativo, desde que respeitado o prazo mínimo de antecedência.
+- As opções disponíveis para reagendamento devem considerar apenas os horários ainda livres.
+- O usuário recebe uma confirmação da alteração e uma notificação com os novos dados do agendamento.
+- O histórico deve registrar a alteração feita, mantendo a rastreabilidade.
+
+#### 📋 Regras de Negócio
+
+| **Regra de Negócio** | Descrição |
+|----------------------|-----------|
+| **RN42** | O sistema deve permitir a alteração de agendamentos com no mínimo 12 horas de antecedência da data agendada. |
+| **RN43** | O usuário só pode alterar agendamentos futuros — não é possível modificar datas já expiradas. |
+| **RN44** | O novo horário selecionado deve estar entre os horários disponíveis e com vagas abertas. |
+| **RN45** | Após a alteração, o sistema deve atualizar o registro de agendamento e gerar uma nova confirmação para o usuário. |
+| **RN46** | O sistema deve registrar todas as alterações no histórico do usuário, incluindo data, horário anterior e novo horário. |
+| **RN47** | Em caso de indisponibilidade nos horários desejados, o sistema deve sugerir opções alternativas próximas à original. |
+
+#### 📑 Classes de Equivalência
+
+Preencher
+
+#### 💻 Casos de Teste
+
+Preencher
