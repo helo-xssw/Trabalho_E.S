@@ -8,11 +8,18 @@ A seguir, destacamos as issues mais relevantes identificadas nesse processo. Par
 
 ---
 
-▪️ 
+### ▪️ H9 - Critério de Aceitação - Item 01: Falta de detalhamento nos status de triagem e exames.
+
+> O item 1 do critério de aceitação afirma que "O usuário pode acompanhar o status da triagem e dos exames", mas não especifica quais são os possíveis status nem como essa visualização será feita no sistema (por ícones, mensagens, cores, etc.).
+
+Essa omissão pode gerar interpretações diferentes entre a equipe de desenvolvimento e dificultar os testes de aceitação.
 
 - **Antes da Correção**
   
 [![H9-CR-Antes.jpg](https://i.postimg.cc/pLDtQ02J/H9-CR-Antes.jpg)](https://postimg.cc/BjQy4BPj)
+
+Reformular o critério de aceitação incluindo os possíveis status e a forma de apresentação. Por exemplo:
+> "O usuário pode acompanhar o status da triagem e dos exames, visualizando uma das seguintes situações: 'Pendente', 'Em análise', 'Aprovado' ou 'Reprovado'. A exibição será feita por meio de mensagens textuais e ícones coloridos no painel de acompanhamento."
 
 - **Após correção**
   
