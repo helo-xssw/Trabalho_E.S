@@ -11,16 +11,11 @@
 
 **Docente:** Andrey Antonio de Oliveira Rodrigues
 
-Esta segunda etapa marca a evolução do projeto *DoeVida*, com foco na definição da arquitetura do sistema a partir dos requisitos levantados na fase anterior. A modelagem arquitetural foi guiada pelo **Modelo C4** de Simon Brown, permitindo representar de forma clara e hierárquica os níveis de abstração do sistema: desde o contexto geral até os principais containers e componentes internos.
+Esta terceira etapa representa mais um avanço significativo no desenvolvimento do projeto DoeVida, com foco na validação, correção e melhoria contínua do produto, a partir da interação colaborativa com outras equipes. A fase foi marcada pelo recebimento de uma tabela de defeitos identificados por uma equipe parceira, o que proporcionou uma perspectiva externa valiosa sobre o funcionamento do sistema.
 
-Com base no backlog elaborado na primeira etapa, foram tomadas decisões arquiteturais fundamentais, abrangendo a definição de camadas do sistema, escolha das tecnologias, e criação dos diagramas C4, incluindo:
+Com base nos defeitos reportados, foi realizada a criação de issues específicas para cada erro identificado, detalhando a descrição do problema, seu impacto no sistema e a prioridade de correção. Essas issues foram então integradas ao backlog do produto, orientando a equipe de desenvolvimento na priorização e resolução dos problemas.
 
-- Diagrama de Contexto
-- Diagrama de Containers
-- Diagrama de Componentes
-- Diagrama de Código
-
-Além disso, foi realizada a rastreabilidade entre as histórias de usuário e os elementos arquiteturais, permitindo evidenciar como os requisitos funcionais influenciaram diretamente a construção da arquitetura proposta.
+A partir dessas correções, foi possível aprimorar a qualidade do sistema e garantir maior aderência aos requisitos funcionais esperados. Esta fase também incluiu a elaboração dos casos de equivalência e de teste, fundamentais para garantir a confiabilidade das funcionalidades corrigidas e identificar possíveis comportamentos não esperados.
 
 ## Tópicos do  Trabalho Prático III
 - [Issues](https://github.com/helo-xssw/Trabalho_E.S/issues)
