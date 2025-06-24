@@ -7,22 +7,22 @@ A seguir, destacamos as issues mais relevantes identificadas nesse processo. Par
 [Link para o acesso completo das Issues](https://github.com/helo-xssw/Trabalho_E.S/issues)
 
 ---
-### ▫️ H7 - Critério de Aceitação - Item 3: Inconsistência entre triagem e bloqueio de agendamento. 
+### ▫️H7 - Regra de Negócio RN06: Falta de clareza sobre reavaliação de usuários reprovados na triagem.
 
-> O critério de aceitação diz que o sistema informa se o usuário está apto a seguir com os exames, enquanto a RN06 impede o agendamento se o
-usuário for reprovado. O sistema pode precisar de uma mensagem explicativa para que usuários entendam claramente as razões da reprovação e eventuais alternativas.
+> A regra afirma que usuários reprovados na triagem não poderão agendar exames ou coletas, porém não especifica se há possibilidade de reavaliação ou novo acesso à triagem. Isso torna a regra ambígua e pode gerar dúvidas sobre a experiência do usuário em situações de erro ou mudança no estado de saúde.
 
 - **Antes da Correção**
 
-[![H7-ANTES-CR.jpg](https://i.postimg.cc/YSsG6Pbb/H7-ANTES-CR.jpg)](https://postimg.cc/8FLzDZ86)
+[![Whats-App-Image-2025-06-22-at-15-48-33.jpg](https://i.postimg.cc/L5KWxLSw/Whats-App-Image-2025-06-22-at-15-48-33.jpg)](https://postimg.cc/CB7J1Zzs)
 
-Reformular o critério para refletir as consequências da reprovação, conforme a regra de negócio RN06:
+Reformular a regra para esclarecer a existência (ou não) de um processo de reavaliação e os critérios para novo acesso. Exemplo:
 
-> "O sistema deve informar se o usuário está apto ou não a seguir com os exames. Em caso de reprovação, deve apresentar mensagem explicando que o agendamento estará bloqueado por 7 dias, salvo apresentação de justificativa médica para liberação antecipada."
+> "Usuários reprovados na triagem não poderão agendar exames ou coletas até que passem por nova avaliação, a ser liberada automaticamente após 7 dias ou mediante apresentação de justificativa médica."
 
 - **Depois da Correção**
   
-[![Captura-de-tela-2025-06-24-142057.png](https://i.postimg.cc/tTs68bYK/Captura-de-tela-2025-06-24-142057.png)](https://postimg.cc/fthk067C)
+[![Captura-de-tela-2025-06-24-172904.png](https://i.postimg.cc/6Q81wY5F/Captura-de-tela-2025-06-24-172904.png)](https://postimg.cc/t1HzNd6z)
+
 ---
 
 ### ▪️ H9 - Critério de Aceitação - Item 01: Falta de detalhamento nos status de triagem e exames.
