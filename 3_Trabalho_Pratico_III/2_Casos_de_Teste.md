@@ -324,7 +324,7 @@
 | **RN35** | O sistema deve destacar se o usuário está apto ou inapto para futuras doações, com base nas informações mais recentes. |
 | **RN36** | Resultados críticos (ex: doenças infecciosas detectadas) devem ser tratados com sigilo e orientações específicas, podendo exigir contato direto do hemonúcleo com o doador. |
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Acesso Exames
 
 | **Condição de Entrada**           | **Classe Válida**                      | **Classe Inválida**         | **Classe Inválida**                 |
 | --------------------------------- | -------------------------------------- | --------------------------- | ----------------------------------- |
@@ -335,7 +335,7 @@
 | Exame com status de aptidão claro | Apto ou Inapto destacado (13)          | Sem destaque de status (14) | Status divergente do resultado (15) |
 
 
-#### 💻 Casos de Teste
+#### 💻 Casos de Teste - Acesso Exames
 
 | **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                                             | **Resultado Esperado**                                                         |
 | ------ | --------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
