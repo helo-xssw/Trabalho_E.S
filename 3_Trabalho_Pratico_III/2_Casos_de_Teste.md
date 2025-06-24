@@ -175,7 +175,7 @@
 |**RN14**| O módulo informativo do app deve estar acessível a todos os usuários, inclusive os que não finalizaram o cadastro.|
 |**RN15**| O conteúdo educacional e informativo deve estar adaptado à realidade e necessidades do hospital e da população do município.|
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Conteúdo Informativo
 
 | **Condição de Entrada**             | **Classes Válidas**                                 | **Classes Inválidas**                         | **Classes Inválidas**                         |
 |------------------------------------|-----------------------------------------------------|------------------------------------------------|------------------------------------------------|
@@ -185,7 +185,7 @@
 
 
 
-#### 💻 Casos de Teste
+#### 💻 Casos de Teste - Conteúdo Informativo
 
 | **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                               | **Resultado Esperado**                                                                 |
 |--------|------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@
 | **RN22** | O cancelamento de agendamento deve ser permitido até 12 horas antes do horário marcado. Após esse prazo, o cancelamento só poderá ser feito por contato direto com o hemonúcleo. |
 | **RN23** | Usuários que faltarem ao agendamento sem aviso prévio serão temporariamente bloqueados de novos agendamentos, pelo período estabelecido pelo hemonúcleo. |
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Agendamento de Doação
 
 | **Condição de Entrada**                   | **Classes Válidas**                                           | **Classes Inválidas**                                        | **Classes Inválidas**                                 |
 |------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
@@ -233,7 +233,7 @@
 | Conflito de agendamento                  | Sem conflito no mesmo dia (10)                                | Duplo agendamento no mesmo dia (11)                           | Tentativa de burlar limite com contas diferentes (12) |
 
 
-#### 💻 Casos de Teste
+#### 💻 Casos de Teste - Agendamento de Doação
 
 | **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                         | **Resultado Esperado**                                                                      |
 |--------|-----------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@
 | **RN28** | O sistema deve respeitar as configurações de privacidade e não enviar notificações a usuários que desativaram esse recurso. |
 | **RN29** | As notificações devem obrigatoriamente informar o tema e o período da campanha. Informações adicionais, como metas e benefícios, podem ser incluídas quando aplicável. |
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Notificações
 
 | **Classe** | **Descrição**                                                 |
 | ---------- | ------------------------------------------------------------- |
@@ -287,9 +287,9 @@
 | 10         | Notificação não enviada por ausência de configuração          |
 
 
-#### 💻 Casos de Teste
+#### 💻 Casos de Teste - Notificações
 
-| **ID** | **Classes de Equivalência** | **Condições de Entrada**                                                             | **Resultado Esperado**                                                                 |
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                             | **Resultado Esperado**                                                                 |
 |--------|-----------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | CT01   | 1, 3, 7, 8                  | Usuário ativo com preferência de push e frequência semanal                          | Notificação é enviada via push semanalmente                                           |
 | CT02   | 1, 4, 7, 8                  | Usuário ativo com preferência de e-mail e frequência mensal                         | Notificação é enviada por e-mail mensalmente                                          |
@@ -303,7 +303,7 @@
 
 > H13: Como doador de sangue, desejo ter acesso aos resultados dos exames realizados na pré-doação, para que eu possa acompanhar minha saúde e estar ciente da minha aptidão para futuras doações.
 
-#### ✅ Critérios de Aceitação
+#### ✅ Critérios de Aceitação 
 
 - O sistema permite que o usuário visualize os resultados dos exames realizados na pré-doação.
 - Os resultados incluem informações sobre aptidão, hemoglobina, pressão, doenças triadas e outras métricas relevantes.
@@ -326,11 +326,30 @@
 
 #### 📑 Classes de Equivalência
 
-Preencher
+| **Condição de Entrada**           | **Classe Válida**                      | **Classe Inválida**         | **Classe Inválida**                 |
+| --------------------------------- | -------------------------------------- | --------------------------- | ----------------------------------- |
+| Exame liberado pelo hemonúcleo    | Exame validado e liberado (1)          | Exame ainda em análise (2)  | Exame rejeitado/não liberado (3)    |
+| Usuário autenticado               | Sessão ativa e válida (4)              | Sessão expirada (5)         | Usuário não autenticado (6)         |
+| Notificação configurada no perfil | Preferência ativa para notificação (7) | Preferência desativada (8)  | Nenhuma preferência definida (9)    |
+| Resultado com conteúdo completo   | Todos os dados preenchidos (10)        | Dados incompletos (11)      | Dados ilegíveis ou corrompidos (12) |
+| Exame com status de aptidão claro | Apto ou Inapto destacado (13)          | Sem destaque de status (14) | Status divergente do resultado (15) |
+
 
 #### 💻 Casos de Teste
 
-Preencher
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                                             | **Resultado Esperado**                                                         |
+| ------ | --------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| CT01   | 1, 4, 7, 10, 13             | Exame liberado, usuário autenticado e com preferência de notificação, dados completos e status claro | Exibe resultado com todos os dados e status de aptidão; envia notificação      |
+| CT02   | **2**, 4, 7, 10, 13             | Exame ainda em análise                                                                               | Mensagem "em análise", sem dados exibidos ainda; sem notificação               |
+| CT03   | 1, **5**, 7, 10, 13             | Sessão expirada                                                                                      | Solicita nova autenticação antes de mostrar os resultados                      |
+| CT04   | 1, **6**, 7, 10, 13             | Usuário não autenticado                                                                              | Bloqueia acesso e redireciona para login                                       |
+| CT05   | 1, 4, **8**, 10, 13             | Preferência de notificação desativada                                                                | Resultados disponíveis, mas não envia notificação                              |
+| CT06   | 1, 4, 7, **11**, 13             | Exame liberado, mas alguns dados estão incompletos                                                   | Exibe aviso de inconsistência e sugere contato com o hemonúcleo                |
+| CT07   | 1, 4, 7, 10, **15**             | Exame indica "apto", mas status mostra "inapto"                                                      | Exibe erro de inconsistência e recomenda revisão por parte do administrador    |
+| CT08   | **3**, 4, 7, 10, 13             | Exame rejeitado por erro técnico                                                                     | Informa que os dados estão indisponíveis e sugere novo agendamento             |
+| CT09   | 1, 4, **9**, 10, 13             | Nenhuma preferência definida pelo usuário                                                            | Envia notificação padrão por push                                              |
+| CT10   | 1, 4, 7, 10, **14**             | Exame com status ausente ou genérico                                                                 | Exibe resultados, mas sem destaque de aptidão; solicita feedback ao hemonúcleo |
+
 
 ---
 
@@ -354,13 +373,30 @@ Preencher
 | **RN40** | O sistema deve notificar o usuário com um lembrete e acesso direto às orientações pós-doação. |
 | **RN41** | As orientações devem ser acessíveis a qualquer momento no perfil ou histórico do usuário. |
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Orientações
 
-Preencher
+| **Condição de Entrada**           | **Classe Válida**                               | **Classe Inválida**                         | **Classe Inválida**                         |
+| --------------------------------- | ----------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| Procedimento de doação concluído  | Doação registrada com sucesso (1)               | Doação pendente/não registrada (2)          | Erro no registro da doação (3)              |
+| Tipo de doador definido           | Perfil definido (ex: primeira vez, aférese) (4) | Perfil ausente ou incompleto (5)            | Perfil inválido ou corrompido (6)           |
+| Notificação configurada           | Notificação push e/ou e-mail ativada (7)        | Notificação desativada (8)                  | Preferência indefinida (9)                  |
+| Histórico de conteúdos habilitado | Histórico ativo e acessível (10)                | Histórico indisponível temporariamente (11) | Histórico corrompido ou erro de acesso (12) |
 
-#### 💻 Casos de Teste
 
-Preencher
+#### 💻 Casos de Teste - Orientações
+
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                               | **Resultado Esperado**                                                             |
+| ------ | --------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| CT01   | 1, 4, 7, 10                 | Doação registrada, perfil doador definido, notificações ativadas, histórico disponível | Conteúdo exibido, notificação enviada, acesso ao histórico liberado                |
+| CT02   | **2**, 4, 7, 10                 | Doação ainda não registrada no sistema                                                 | Conteúdo não exibido, sistema aguarda confirmação da doação                        |
+| CT03   | 1, **5**, 7, 10                 | Perfil do doador incompleto                                                            | Conteúdo exibido de forma genérica (sem personalização)                            |
+| CT04   | 1, 4, **8**, 10                 | Notificações desativadas                                                               | Conteúdo disponível no app, mas sem notificação enviada                            |
+| CT05   | 1, 4, **9**, 10                 | Preferência de notificação não configurada                                             | Envio padrão de notificação via push                                               |
+| CT06   | 1, 4, 7, **11**                 | Histórico temporariamente indisponível                                                 | Notificação enviada, mas conteúdo não acessível no histórico momentaneamente       |
+| CT07   | **3**, 4, 7, 10                 | Erro ao registrar doação                                                               | Conteúdo não exibido, sistema sugere nova tentativa ou contato com suporte         |
+| CT08   | 1, **6**, 7, 10                 | Perfil doador inválido                                                                 | Conteúdo genérico exibido com alerta de inconsistência no perfil                   |
+| CT09   | 1, 4, 7, **12**                 | Erro ao acessar histórico do conteúdo                                                  | Notificação enviada, mas conteúdo inacessível no histórico; sistema sugere suporte |
+
 
 ---
 
@@ -385,10 +421,23 @@ Preencher
 | **RN46** | O sistema deve registrar todas as alterações no histórico do usuário, incluindo data, horário anterior e novo horário. |
 | **RN47** | Em caso de indisponibilidade nos horários desejados, o sistema deve sugerir opções alternativas próximas à original. |
 
-#### 📑 Classes de Equivalência
+#### 📑 Classes de Equivalência - Reagendamento
 
-Preencher
+| **Condição de Entrada**               | **Classe Válida**          | **Classe Inválida**                | **Classe Inválida**                           |
+| ------------------------------------- | -------------------------- | ---------------------------------- | --------------------------------------------- |
+| Agendamento ainda não expirado        | Agendamento futuro (1)     | Agendamento passado (2)            | Data/hora do agendamento não identificada (3) |
+| Reagendamento com 12h de antecedência | Reagendamento com +12h (4) | Reagendamento com menos de 12h (5) | Horário novo é o mesmo do anterior (6)        |
+| Novo horário disponível               | Novo horário com vaga (7)  | Novo horário sem vaga (8)          | Horário fora da faixa de atendimento (9)      |
 
-#### 💻 Casos de Teste
 
-Preencher
+#### 💻 Casos de Teste - Reagendamento
+
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                            | **Resultado Esperado**                                                      |
+| ------ | --------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| CT01   | 1, 4, 7                     | Agendamento futuro reagendado com mais de 12h de antecedência para horário com vaga | Reagendamento confirmado com sucesso                                        |
+| CT02   | **2**, 4, 7                     | Usuário tenta reagendar um agendamento já expirado                                  | Sistema bloqueia a alteração e exibe mensagem de erro                       |
+| CT03   | 1, **5**, 7                     | Reagendamento solicitado com menos de 12h de antecedência                           | Sistema bloqueia alteração e informa necessidade de contato com suporte     |
+| CT04   | 1, 4, **8**                     | Novo horário escolhido está indisponível                                            | Sistema exibe mensagem de erro e sugere horários alternativos               |
+| CT05   | 1, 4, **9**                     | Horário escolhido fora da faixa de atendimento                                      | Sistema exibe mensagem de horário inválido                                  |
+| CT06   | 1, 4, 7                     | Novo horário é o mesmo do anterior                                                  | Sistema alerta que o horário é igual ao atual e impede alteração redundante |
+
