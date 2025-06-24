@@ -1,5 +1,9 @@
 ## 👩‍💻 Casos de Teste com Classes de Equivalência
 
+A seguir, foram elaborados os Casos de Equivalência e os Casos de Teste que auxiliam na validação das funcionalidades do sistema, garantindo que os requisitos definidos sejam atendidos de forma eficaz. Estes testes foram desenvolvidos com base nas histórias de usuário, critérios de aceitação e regras de negócio, proporcionando uma cobertura mais abrangente e organizada dos possíveis cenários de uso da aplicação.
+
+---
+
 > H6: Como um doador em potencial, quero me cadastrar no aplicativo e receber por e-mail um guia com orientações de uso, para iniciar o processo de doação de forma segura e informada.
 
 #### ✅ Critérios de Aceitação 
