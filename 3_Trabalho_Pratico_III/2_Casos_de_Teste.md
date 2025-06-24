@@ -177,11 +177,24 @@
 
 #### 📑 Classes de Equivalência
 
-Preencher
+| **Condição de Entrada**             | **Classes Válidas**                                 | **Classes Inválidas**                         | **Classes Inválidas**                         |
+|------------------------------------|-----------------------------------------------------|------------------------------------------------|------------------------------------------------|
+| Tipo de usuário                    | Visitante, cadastrado, cadastrado incompleto (1)    | Tipo de usuário desconhecido (2)              | Dados de sessão inválidos (3)                 |
+| Conteúdo adaptado ao município     | Conteúdo do hospital vinculado (4)                  | Conteúdo não carregado (falha) (5)            | —                                              |
+| Acesso a funcionalidades extras    | Usuário cadastrado completo (6)                     | Usuário não cadastrado (7)                    | Cadastrado parcial sem permissão (8)          |
+
+
 
 #### 💻 Casos de Teste
 
-Preencher
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                               | **Resultado Esperado**                                                                 |
+|--------|------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| CT01   | 1, 4                         | Visitante acessa a seção educativa com conteúdo do hospital local      | Conteúdo exibido normalmente com informações locais                                    |
+| CT02   | **3**, **5**                         | Sessão expirada e conteúdo não carregado                               | Mensagem de erro e solicitação de recarregamento                                      |
+| CT03   | 1, 6                         | Usuário cadastrado completo acessa e salva conteúdo como favorito      | Conteúdo é salvo com sucesso                                                          |
+| CT04   | 1, **7**                         | Usuário visitante tenta favoritar conteúdo                             | Sistema exibe mensagem solicitando cadastro                                           |
+| CT05   | 1, **8**                         | Usuário com cadastro incompleto tenta acessar recomendações            | Acesso negado com mensagem indicando necessidade de completar cadastro                |
+
 
 ---
 
@@ -204,7 +217,7 @@ Preencher
 | **RN16** | Os horários disponíveis para doação devem ser definidos e atualizados pelo hemonúcleo local, de acordo com sua capacidade de atendimento. |
 | **RN17** | Cada horário de doação deve ter um limite máximo de vagas, definido pelo administrador do hemonúcleo. |
 | **RN18** | O agendamento só poderá ser realizado com pelo menos 24 horas de antecedência da data desejada. |
-| **RN19** | O sistema deve impedir que um mesmo usuário agende dois horários no mesmo dia, exceto em casos de eagendamento por ausência ou cancelamento.|
+| **RN19** | O sistema deve impedir que um mesmo usuário agende dois horários no mesmo dia, exceto em casos de reagendamento por ausência ou cancelamento.|
 | **RN20** | O agendamento de horário será permitido apenas para usuários que estejam aptos segundo os requisitos mínimos de saúde (idade, peso, estado geral de saúde e intervalo entre doações). |
 | **RN21** | Horários que atingirem o limite de agendamentos devem ser automaticamente ocultados ou marcados como indisponíveis. |
 | **RN22** | O cancelamento de agendamento deve ser permitido até 12 horas antes do horário marcado. Após esse prazo, o cancelamento só poderá ser feito por contato direto com o hemonúcleo. |
@@ -212,11 +225,28 @@ Preencher
 
 #### 📑 Classes de Equivalência
 
-Preencher
+| **Condição de Entrada**                   | **Classes Válidas**                                           | **Classes Inválidas**                                        | **Classes Inválidas**                                 |
+|------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| Usuário apto a doar (passou nos exames)  | Aprovado nos exames médicos (1)                              | Reprovado nos exames médicos (2)                             | Sem resultado ou avaliação pendente (3)               |
+| Antecedência do agendamento              | Agendamento feito com 24h ou mais de antecedência (4)         | Agendamento feito com menos de 24h (5)                        | Tentativa de agendamento retroativo (6)               |
+| Disponibilidade de horário               | Horário disponível com vagas (7)                              | Horário sem vagas (lotado) (8)                                | Horário já agendado pelo próprio usuário (9)          |
+| Conflito de agendamento                  | Sem conflito no mesmo dia (10)                                | Duplo agendamento no mesmo dia (11)                           | Tentativa de burlar limite com contas diferentes (12) |
+
 
 #### 💻 Casos de Teste
 
-Preencher
+| **Casos de Teste** | **Classes de Equivalência** | **Condições de Entrada**                                                         | **Resultado Esperado**                                                                      |
+|--------|-----------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| CT01   | 1, 4, 7, 10                 | Usuário apto tenta agendar com 2 dias de antecedência em horário disponível     | Agendamento confirmado com sucesso                                                          |
+| CT02   | **2**, 4, 7, 10                 | Usuário reprovado nos exames tenta agendar                                      | Sistema exibe mensagem de inaptidão e bloqueia o agendamento                               |
+| CT03   | 1, **5**, 7, 10                 | Usuário apto tenta agendar para o mesmo dia                                     | Sistema bloqueia a ação e informa o tempo mínimo necessário                                 |
+| CT04   | 1, 4, **8**, 10                 | Usuário tenta agendar em horário lotado                                         | Sistema exibe alerta e sugere alternativas                                                  |
+| CT05   | 1, 4, 7, **11**                 | Usuário tenta agendar dois horários no mesmo dia                                | Sistema bloqueia segundo agendamento e alerta sobre conflito                               |
+| CT06   | 1, 4, **9**, 10                 | Usuário tenta agendar no mesmo horário já marcado por ele                       | Sistema informa que o horário já está agendado pelo próprio usuário                        |
+| CT07   | **3**, 4, 7, 10                 | Usuário com exames pendentes tenta agendar                                      | Sistema solicita que aguarde conclusão dos exames                                           |
+| CT08   | 1, **6**, 7, 10                 | Usuário tenta agendar um horário passado                                        | Sistema exibe erro e impede o agendamento                                                  |
+| CT09   | 1, 4, 7, **12**                 | Usuário tenta reagendar fora do prazo permitido                                 | Sistema bloqueia reagendamento e orienta contato com o hemonúcleo                          |
+
 
 ---
 
@@ -243,11 +273,31 @@ Preencher
 
 #### 📑 Classes de Equivalência
 
-Preencher
+| **Classe** | **Descrição**                                                 |
+| ---------- | ------------------------------------------------------------- |
+| 1          | Usuário cadastrado e ativo                                    |
+| 2          | Usuário inativo ou não cadastrado                             |
+| 3          | Preferência de recebimento configurada como push              |
+| 4          | Preferência de recebimento configurada como e-mail            |
+| 5          | Preferência configurada para ambos                            |
+| 6          | Preferência configurada como nenhum                           |
+| 7          | Frequência configurada (diária, semanal, quinzenal ou mensal) |
+| 8          | Notificação enviada com sucesso                               |
+| 9          | Acesso ao histórico de campanhas                              |
+| 10         | Notificação não enviada por ausência de configuração          |
+
 
 #### 💻 Casos de Teste
 
-Preencher
+| **ID** | **Classes de Equivalência** | **Condições de Entrada**                                                             | **Resultado Esperado**                                                                 |
+|--------|-----------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| CT01   | 1, 3, 7, 8                  | Usuário ativo com preferência de push e frequência semanal                          | Notificação é enviada via push semanalmente                                           |
+| CT02   | 1, 4, 7, 8                  | Usuário ativo com preferência de e-mail e frequência mensal                         | Notificação é enviada por e-mail mensalmente                                          |
+| CT03   | 1, 5, 7, 8                  | Usuário ativo com preferência de push e e-mail com frequência diária                | Notificação é enviada por ambos os meios diariamente                                  |
+| CT04   | 1, 6, 7, 10                 | Usuário ativo com opção de não receber notificações                                 | Sistema não envia notificação                                                         |
+| CT05   | 2, 3, 7, 10                 | Usuário inativo ou não cadastrado com preferência de push                           | Notificação não enviada; sistema bloqueia envio                                       |
+| CT06   | 1, 3, 7, 9                  | Usuário ativo acessa histórico de campanhas                                         | Histórico da campanha vigente e anteriores é exibido com sucesso                     |
+| CT07   | 1, 3, -, 10                 | Usuário ativo configurou tipo de recebimento mas não configurou frequência          | Sistema não envia notificação e exibe alerta solicitando configuração de frequência   |
 
 ---
 
