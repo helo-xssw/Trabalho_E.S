@@ -51,7 +51,7 @@ Reformular a regra de negócio:
 
 - **Antes da Correção**
 
-[![Whats-App-Image-2025-06-23-at-01-33-39.jpg](https://i.postimg.cc/CLZRLpGx/Whats-App-Image-2025-06-23-at-01-33-39.jpg)](https://postimg.cc/YhHrbVD5)
+[![Whats-App-Image-2025-06-23-at-01-33-39.jpg](https://i.postimg.cc/Nf0zKpFM/Whats-App-Image-2025-06-23-at-01-33-39.jpg)](https://postimg.cc/w3SVP5h8)
 
 > RN20: O agendamento de horário será permitido apenas para usuários que estejam aptos segundo os requisitos mínimos de saúde (idade, peso, estado geral de saúde e intervalo entre doações).
 
