@@ -18,9 +18,9 @@ Com base nos defeitos reportados, foi realizada a criação de issues específic
 A partir dessas correções, foi possível aprimorar a qualidade do sistema e garantir maior aderência aos requisitos funcionais esperados. Esta fase também incluiu a elaboração dos casos de equivalência e de teste, fundamentais para garantir a confiabilidade das funcionalidades corrigidas e identificar possíveis comportamentos não esperados.
 
 ## Tópicos do  Trabalho Prático IV
-- [MVP - Produto Mínimo Viável]()
-- [Rastreabilidade História do Usuário]()
-- [Rastreabilidade Diagramas]()
+- [MVP - Produto Mínimo Viável](https://github.com/helo-xssw/Trabalho_E.S/blob/main/4_Trabalho_Pr%C3%A1tico_IV/1_MVP.md)
+- [Rastreabilidade História do Usuário](https://github.com/helo-xssw/Trabalho_E.S/blob/main/4_Trabalho_Pr%C3%A1tico_IV/2_Rastreabilidade_User_Story.md)
+- [Rastreabilidade Diagramas](https://github.com/helo-xssw/Trabalho_E.S/blob/main/4_Trabalho_Pr%C3%A1tico_IV/3_Rastreabilidade_Diagramas.md)
 
   
 ## Trabalhos Práticos Anteriores
