@@ -8,14 +8,14 @@
 
 > H8: Como um doador apto, eu quero agendar meus exames iniciais diretamente pelo app, para confirmar minha elegibilidade para doar sangue.
 
-- A funcionalidade foi contemplada na tela de agendamento, acessível a partir da interface principal do aplicativo.
+- **Implementação no MVP:** A funcionalidade foi contemplada na tela de agendamento, acessível a partir da interface principal do aplicativo.
 Nessa tela, o doador apto pode selecionar uma data e horário disponíveis para realizar seus exames iniciais no hemonúcleo local.
 
 ---
 
 > H10: Como um doador em potencial, eu gostaria de acessar conteúdos educativos e motivacionais sobre doação, para tirar dúvidas e ganhar confiança no processo.
 
-- A funcionalidade foi representada na tela da área educacional, acessível pelo menu inferior do aplicativo.
+- **Implementação no MVP** A funcionalidade foi representada na tela da área educacional, acessível pelo menu inferior do aplicativo.
 Nessa tela, o usuário pode visualizar conteúdos informativos e motivacionais organizados em blocos de texto, com linguagem acessível, voltada à orientação e estímulo à doação de sangue.
 
   
