@@ -27,17 +27,23 @@ Entretanto, a ferramenta também apresentou limitações importantes, como o nú
 ### 1. **Tela de Boas-vindas**
 Apresenta o nome e a proposta do aplicativo, convidando o usuário a iniciar sua jornada. Conta com opções para login ou cadastro e reforça o propósito social do projeto.
 
+[![Design-sem-nome-5.png](https://i.postimg.cc/JhbzmxSx/Design-sem-nome-5.png)](https://postimg.cc/KK82DPG3)
+
 ### 2. **Tela de Login**
 Interface onde usuários previamente cadastrados realizam sua autenticação informando e-mail e senha. Inclui opção de recuperação de senha.
+[![Design-sem-nome-6.png](https://i.postimg.cc/dtkvwnyC/Design-sem-nome-6.png)](https://postimg.cc/jLbBhHvq)
 
 ### 3. **Tela de Cadastro**
 Permite o registro de novos usuários mediante preenchimento de dados obrigatórios como nome completo, e-mail, senha, CEP e CNS. O sistema valida se o CEP pertence à área de cobertura (Itacoatiara-AM) antes de permitir a conclusão do cadastro.
+[![Design-sem-nome-7.png](https://i.postimg.cc/g2VC27kx/Design-sem-nome-7.png)](https://postimg.cc/tsgSr26b)
 
 ### 4. **Tela Principal**
 Atua como hub principal de navegação do aplicativo. A partir dela, o usuário pode acessar os recursos centrais, como agendamento, reagendamento, notificações, histórico de exames e atualizações sobre campanhas. A interface é limpa, intuitiva e utiliza ícones para facilitar o uso.
+[![Design-sem-nome-8.png](https://i.postimg.cc/sDrdCysk/Design-sem-nome-8.png)](https://postimg.cc/grNB3Cws)
 
 ### 5. **Tela de Agendamento**
-Apresenta os horários e datas disponíveis para doação de sangue. O sistema valida automaticamente disponibilidade de vagas, intervalo mínimo entre doações e status do usuário (ex: aprovação na triagem). Após o agendamento, o usuário recebe confirmação imediata e alertas de lembrete.
+Apresenta os horários e datas disponíveis para doação de sangue. Após o agendamento, o usuário recebe confirmação imediata e alertas de lembrete.
+[![Design-sem-nome-9.png](https://i.postimg.cc/wx54JNYr/Design-sem-nome-9.png)](https://postimg.cc/SjsGbJsL)
 
 ## 🚀 Status do MVP
 
