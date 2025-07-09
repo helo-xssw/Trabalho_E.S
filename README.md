@@ -11,11 +11,9 @@
 
 **Docente:** Andrey Antonio de Oliveira Rodrigues
 
-Esta terceira etapa representa mais um avanço significativo no desenvolvimento do projeto DoeVida, com foco na validação, correção e melhoria contínua do produto, a partir da interação colaborativa com outras equipes. A fase foi marcada pelo recebimento de uma tabela de defeitos identificados por uma equipe parceira, o que proporcionou uma perspectiva externa valiosa sobre o funcionamento do sistema.
+Esta última etapa marca a entrega do MVP (Produto Mínimo Viável) do projeto DoeVida, consolidando os resultados obtidos ao longo do desenvolvimento. Com foco na validação da solução proposta, o MVP representa a primeira versão funcional do sistema, pronta para ser utilizada e avaliada.
 
-Com base nos defeitos reportados, foi realizada a criação de issues específicas para cada erro identificado, detalhando a descrição do problema, seu impacto no sistema e a prioridade de correção. Essas issues foram então integradas ao backlog do produto, orientando a equipe de desenvolvimento na priorização e resolução dos problemas.
-
-A partir dessas correções, foi possível aprimorar a qualidade do sistema e garantir maior aderência aos requisitos funcionais esperados. Esta fase também incluiu a elaboração dos casos de equivalência e de teste, fundamentais para garantir a confiabilidade das funcionalidades corrigidas e identificar possíveis comportamentos não esperados.
+Além disso, foi realizada a organização da rastreabilidade entre as histórias de usuário e os diagramas arquiteturais elaborados nas fases anteriores, garantindo o alinhamento entre requisitos, arquitetura e implementação. Esta entrega finaliza o ciclo inicial do projeto, oferecendo uma base sólida para futuras evoluções e melhorias contínuas.
 
 ## Tópicos do  Trabalho Prático IV
 - [MVP - Produto Mínimo Viável](https://github.com/helo-xssw/Trabalho_E.S/blob/main/4_Trabalho_Pr%C3%A1tico_IV/1_MVP.md)
