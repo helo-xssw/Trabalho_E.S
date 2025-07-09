@@ -1,1 +1,1 @@
-## 📱 MVP - Mínimo Produto Viavél
+## 📱 MVP - Produto Mínimo Viável 
